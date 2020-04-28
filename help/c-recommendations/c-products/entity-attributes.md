@@ -157,8 +157,8 @@ Example: `'entity.event.detailsOnly=true'`
 In the examples below, the first mbox call will update the catalog and behavioral data. The second mbox call will update only the catalog.
 
 ```
-mboxCreate('myMbox', 'profile.geo.city = new york', 'profile.geo.state = new york',  'entity.id = 'entity.inventory = 4' )
-mboxCreate('myMbox',  'profile.geo.city = new york', 'profile.geo.state = new york',  'entity.id = 123', 'entity.inventory = 4' 'entity.event.detailsOnly=true' )
+mboxCreate('myMbox', 'profile.geo.city = new york', 'profile.geo.state = new york', 'entity.id = 'entity.inventory = 4' )
+mboxCreate('myMbox', 'profile.geo.city = new york', 'profile.geo.state = new york', 'entity.id = 123', 'entity.inventory = 4' 'entity.event.detailsOnly=true' )
 ```
 
 ## Use entity attributes
@@ -189,37 +189,16 @@ In general, the display information mbox might look like the following example i
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
  
 mboxCreate('productPage', 
- 
-'entity.id= 
-<b>67833</b>', 
- 
-'entity.name= 
-<b>GIANTS VS ROCKIES 5/12</b>', 
- 
-'entity.categoryId= 
-<b>BASEBALL, GIANTS, SF BAY AREA</b>', 
- 
-'entity.pageUrl= 
-<b>../baseball/giants-tix/giantsvrockies5.12.2000-67833</b>', 
- 
-'entity.venue= 
-<b>AT&T PARK</b>', 
- 
-'entity.secondary= 
-<b>ROCKIES</b>', 
- 
-'entity.thumbnailUrl= 
-<b>../baseball/giants-tix/giants-136px.gif</b>', 
- 
-'entity.message= 
-<b>FAMILY SPECIAL</b>', 
- 
-'entity.value= 
-<b>15.99</b>', 
- 
-'entity.inventory= 
-<b>1</b>' 
- 
+  'entity.id = 67833',
+  'entity.name = GIANTS VS ROCKIES 5/12',
+  'entity.categoryId = BASEBALL, GIANTS, SF BAY AREA',
+  'entity.pageUrl = ../baseball/giants-tix/giantsvrockies5.12.2000-67833',
+  'entity.venue = AT&T PARK',
+  'entity.secondary = ROCKIES',
+  'entity.thumbnailUrl = ../baseball/giants-tix/giants-136px.gif',
+  'entity.message = FAMILY SPECIAL',
+  'entity.value = 15.99',
+  'entity.inventory = 1' 
 ); 
  
 </script>
