@@ -33,7 +33,7 @@ entity.genre=genre1
 A multi-value custom entity attribute must be sent as a valid JSON array:
 
 ```
-entity.genre=[“genre1”, “genre2”]
+entity.genre=["genre1", "genre2"]
 ```
 
 Examples of valid JSON arrays supported by [!DNL Recommendations]:
