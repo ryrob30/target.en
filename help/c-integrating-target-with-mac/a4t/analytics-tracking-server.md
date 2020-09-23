@@ -55,7 +55,7 @@ The Developer Tools should be viewed on a page where the activity will be delive
 
 1. Filter for ‘/ss,’ to display the analytics requests.
 
-   ![Chrome developer tools](/help/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools.png)
+   ![Chrome developer tools](/help/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools-2.png)
 
    The tracking server is the hostname of the request.
 
