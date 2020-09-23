@@ -25,7 +25,7 @@ This page lists profiles, variables, and parameters that are useful in profile s
 |user.daysSinceLastVisit||
 |user.browser|The user agent|
 |user.header|All `user.header` profiles are built-in from mbox request header data|
-|user.header('x-cluster-client-ip')<br>or<br>user.header('x-forwarded-for')|The public-facing IP address of the network connection that the visitor is on.<br>You can get this in several ways, for example [whatismyip.com](https://www.whatismyip.com/). The IP address is not the NAT address (internal address), starting with 10., 192.168., or 172. |
+|user.header('x-forwarded-for')|The public-facing IP address of the network connection that the visitor is on.<br>You can get this in several ways, for example [whatismyip.com](https://www.whatismyip.com/). The IP address is not the NAT address (internal address), starting with 10., 192.168., or 172.<br>Note: user.header('x-cluster-client-ip') has been deprecated. |
 |user.header('host')|Website hostname|
 |user.header('cookie')|Visitor cookie data|
 |user.header('user-agent')|Visitor browser user-agent|
