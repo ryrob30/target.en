@@ -162,3 +162,13 @@ You can temporarily modify the active columns on the [!UICONTROL Catalog Search]
    You can also click the delete icon ( x ) next to the column you want to move from the active to inactive section.
 
 Keep in mind that any changes you make apply to the current session only.
+
+## Frequently Asked Questions {#faq}
+
+Consult the following FAQs for help with the [!UICONTROL Catalog Search] feature:
+
+### Why does Catalog Search not show the correct results when I search on a custom attribute with a numeric value?
+
+When you perform a catalog search on a custom attribute with a numeric value, the results treat the custom attribute to be a String type instead of a numeric value.
+
+Currently, there is no functionality available that allows customers to change the type of an attribute. To make a change, [open a customer issue](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) referencing the attributes that need the type changed from string to numeric.

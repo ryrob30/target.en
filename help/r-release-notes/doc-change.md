@@ -16,6 +16,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |Date|Topic|Changes|
 | --- | --- | --- |
 |September 24|[Activity QA bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md)|Updated the code for the activity QA bookmarklet for at.js 2.*x*.|
+||[Catalog search](/help/c-recommendations/c-products/catalog-search.md#faq)|Added a FAQ section.|
 |September 23|[Use an Analytics tracking server](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md)|Updated entire topic with information from the [!DNL Adobe Experience Platform Debugger] and the browser Developer Tools.|
 ||[Profile and variable glossary](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md)|Updated the "user.header('x-forwarded-for')" row to indicate that "user.header('x-cluster-client-ip')" has been deprecated.|
 ||[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about the Target Standard/Premium 20.9.1 (September 30, 2020) release.|
