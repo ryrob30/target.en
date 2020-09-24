@@ -58,9 +58,9 @@ javascript:(
             return cookie.trim().startsWith(AT_QA_MODE);
         });
         if (isSet) {
-            document.cookie = AT_QA_MODE + '; Max-Age=-99999999;';
+            document.cookie = AT_QA_MODE + '; Path=/; Max-Age=-0;';
             var url = window.location.href.split('at_preview_token',2)[0];
-            window.location.href = url.substring(0, url.length - 1);
+            window.open(url.substring(0, url.length - 1), '_self', 'noreferrer');
         }
     })();
 ```

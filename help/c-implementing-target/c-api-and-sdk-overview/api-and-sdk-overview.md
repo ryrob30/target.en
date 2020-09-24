@@ -54,6 +54,12 @@ The Java SDK is a sophisticated software development kit that removes the comple
 * **Support for prefetch and notifications that allow you to optimize for performance via caching**: You can use the JavaSDK to retrieve experiences and cache them locally on your Java server with the purpose of minimizing server calls to [!DNL Target] and optimizing your application performance.
 * **Ability to retrieve VEC-created activities**: Retrieve VEC-created activities on the server-side. The response that contains VEC-created activities has selectors that can be used to pre-hide only portions of your page that need to be personalized. This helps optimize your page's [First Contentful Paint](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html) metric, which is an important KPI for your business to achieve a high score in the [Google PageRank](https://en.wikipedia.org/wiki/PageRank) system.
 
+## Adobe Target Developers
+
+Link: [Adobe Target Developers](http://developers.adobetarget.com/)
+
+The Adobe Target Developers site helps you implement [!DNL Target] on client-side applications, server-side applications, mobile apps, IoT, and more. You can also export your [!DNL Target] data to third-party solutions.
+
 ## Target Recommendations APIs
 
 Link: [Target Recommendations APIs](https://developers.adobetarget.com/api/recommendations) and [Adobe Recommendations API Overview](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html).
