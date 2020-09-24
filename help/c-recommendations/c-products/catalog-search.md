@@ -51,6 +51,12 @@ You can use a simple search or an advanced search to locate items in your catalo
 
    ![Search autocomplete](/help/c-recommendations/c-products/assets/bike-results-2.png)
 
+   >[!NOTE]
+   >
+   >When you perform a catalog search on a custom attribute with a numeric value, the results treat the custom attribute to be a String type instead of a numeric value.
+   >
+   >Currently, there is no functionality available that allows customers to change the type of an attribute. To make a change, [open a customer issue](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) referencing the attributes that need the type changed from string to numeric.
+
 1. You can also use filters to find the desired product. In the following example, by expanding the [!UICONTROL Collections] facet and selecting "Bike Tools," all bike tools in your catalog display.
 
    ![Bike tools](/help/c-recommendations/c-products/assets/bike-results-3.png)
@@ -163,12 +169,3 @@ You can temporarily modify the active columns on the [!UICONTROL Catalog Search]
 
 Keep in mind that any changes you make apply to the current session only.
 
-## Frequently Asked Questions {#faq}
-
-Consult the following FAQs for help with the [!UICONTROL Catalog Search] feature:
-
-### Why does Catalog Search not show the correct results when I search on a custom attribute with a numeric value?
-
-When you perform a catalog search on a custom attribute with a numeric value, the results treat the custom attribute to be a String type instead of a numeric value.
-
-Currently, there is no functionality available that allows customers to change the type of an attribute. To make a change, [open a customer issue](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) referencing the attributes that need the type changed from string to numeric.

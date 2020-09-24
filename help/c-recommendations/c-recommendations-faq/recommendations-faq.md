@@ -10,6 +10,12 @@ uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 
 List of frequently asked questions (FAQs) about Adobe Target Recommendations activities.
 
+## Why does Catalog Search not show the correct results when I search on a custom attribute with a numeric value?
+
+When you perform a catalog search on a custom attribute with a numeric value, the results treat the custom attribute to be a String type instead of a numeric value.
+
+Currently, there is no functionality available that allows customers to change the type of an attribute. To make a change, [open a customer issue](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) referencing the attributes that need the type changed from string to numeric.
+
 ## How long will it take for updates to items in my catalog to be reflected on my site?
 
 After importing a feed file, or after receiving entity updates via API or mbox, the following changes will be reflected in under 60 minutes:
