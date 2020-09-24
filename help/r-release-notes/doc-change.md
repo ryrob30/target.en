@@ -15,6 +15,9 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|September 23|[Use an Analytics tracking server](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md)|Updated entire topic with information from the [!DNL Adobe Experience Platform Debugger] and the browser Developer Tools.|
+||[Profile and variable glossary](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md)|Updated the "user.header('x-forwarded-for')" row to indicate that "user.header('x-cluster-client-ip')" has been deprecated.|
+||[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about the Target Standard/Premium 20.9.1 (September 30, 2020) release.|
 |September 15|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the Target Standard/Premium 20.8.3 release, which includes Analytics for Target (A4T) support for Auto-Target activities. Support for Auto-Allocate activities was added in a previous release.|
 ||[Analytics for Target (A4T) support for Auto-Allocate and Auto-Target activities](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa).|Added information about A4T support in Auto-Target activities.|
 ||[Activity QA bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md)|Updated text to indicate that the method to manually force yourself out of QA mode by loading a page on your site with the `at_preview_token` parameter with an empty value applies to at.js 1.*x* only.|
