@@ -1,5 +1,5 @@
 ---
-keywords: Overview and Reference;SEO;search engine optimization
+keywords: Overview and Reference;SEO;search engine optimization;edge clusters, central clusters
 description: Adobe Target integrates with websites by means of one of two JavaScript libraries. at.js or mbox.js
 title: How Adobe Target works
 feature: intro
@@ -8,7 +8,7 @@ topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 ---
 
-# How Adobe Target works{#how-adobe-target-works}
+# How Adobe Target works
 
 Information about how Adobe Target works, including information about the Target JavaScript libraries (at.js and mbox.js) and the various activity types included in Target.
 
@@ -82,31 +82,51 @@ See [Recommendations](../c-recommendations/recommendations.md#concept_7556C8A454
 
 Recommendations activities automatically display products or content that might interest your customers based on previous user activity or other algorithms. Recommendations help direct customers to relevant items they might otherwise not know about.
 
-## The Edge Network {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
+## The edge network {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
 
-“Edge” is a geographically distributed serving architecture that ensures optimum response times for end-users requesting content, regardless of where they are located around the globe.
+An “Edge” is a geographically distributed serving architecture that ensures optimum response times for end-users requesting content, regardless of where they are located around the globe.
 
-To improve response times, Edge environments host only activity logic and cached profile and offer information. Activity and content databases, [!DNL Analytics] data, APIs, and marketer user interfaces are housed in Adobe’s central data environments. Updates are then sent to the Edge nodes. The central environments and Edge nodes are automatically synced to continually update cached activity data. 1:1 modeling is also stored on each edge, so those more complex requests can also be processed on the Edge.
+To improve response times, Target Edges host only activity logic, cached profiles, and offer information. 
 
-Each Edge node has all the information required to respond to the user's content request, and track analytics data on that request. User requests are routed to the nearest Edge node.
+Activity and content databases, [!DNL Analytics] data, APIs, and marketer user interfaces are housed in Adobe’s Central Clusters. Updates are then sent to the Target Edges. The Central Clusters and Edge Clusters are automatically synced to continually update cached activity data. All 1:1 modeling is also stored on each edge, so those more complex requests can also be processed on the edge.
 
-![Map with core edge sites and edge sites](assets/edge_network.png)
+Each Edge Cluster has all the information required to respond to the user's content request and track analytics data on that request. User requests are routed to the nearest Edge Cluster.
 
-The source for this image is the [Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) white paper.
+For more information, see the [Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) white paper.
 
-The Adobe Target solution is hosted on Adobe-owned and Adobe-leased data centers around the globe. Admin Servers are hosted entirely within Adobe-owned data centers in London, Singapore, and multiple locations throughout the U.S, including Oregon and Virginia. Edge Servers are hosted both on Adobe-owned and Adobe-leased servers in Amazon AWS data centers in London, Hong Kong SAR of China, Singapore, Tokyo, and Sydney.
+The [!DNL Adobe Target] solution is hosted on Adobe-owned and Adobe-leased data centers around the globe.
 
-Admin Server locations contain both a data collection center and a data processing center. Edge site locations contain only a data collection center. Each report suite is assigned to a specific data processing center.
+Central Cluster locations contain both a data collection center and a data processing center. Edge Cluster locations contain only a data collection center. Each report suite is assigned to a specific data processing center.
 
-Rather than respond to all targeting requests from a single location, requests are processed by the Edge environment closest to the visitor, thus mitigating the impact of network/Internet travel time.
+Customer site activity data is collected by the closest of seven Edge Clusters and directed to a customer’s pre-determined Central Cluster destination (one of three locations: Oregon, Dublin, Singapore) for processing. Visitor profile data is stored on the Edge Cluster closest to the site visitor (locations include the Central Cluster locations and Virginia, Amsterdam, Sydney, Tokyo, and Hong Kong).
+
+Rather than respond to all targeting requests from a single location, requests are processed by the Edge Cluster closest to the visitor, thus mitigating the impact of network/Internet travel time.
+
+Target Central Clusters, hosted on Amazon Web Services (AWS), are located in:
+
+* Oregon, USA
+* Dublin, Ireland
+* Republic of Singapore
+
+Target Edge Clusters, hosted on AWS, are located in:
+
+* Mumbai, India
+* Tokyo, Japan
+* Virginia, USA
+* Oregon, USA
+* Sydney, Australia
+* Dublin, Ireland
+* Republic of Singapore
+
+The [!DNL Target Recommendations] service is hosted in an [!DNL Adobe] data center in Oregon.
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] currently doesn’t have an Edge network in China and the end-user performance will continue to be limited for [!DNL Target] customers in China. Because of the firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
+>[!DNL Adobe Target] currently doesn’t have an Edge Cluster in China and the end-user performance will continue to be limited for [!DNL Target] customers in China. Because of the firewall and the lack of Edge Clusters within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
 
-You can allowlist Target edge notes, if desired. For more information, see [allowlist Target edge nodes](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md).
+You can allowlist Target Edge Clusters, if desired. For more information, see [allowlist Target edge nodes](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md).
 
-## Protected User Experience {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
+## Protected user experience {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
 Adobe ensures that the availability and performance of the targeting infrastructure is as reliable as possible. However, a communication breakdown between an end-user’s browser and Adobe’s servers can cause an interruption in content delivery.
 
@@ -121,7 +141,7 @@ Adobe protects the user experience by optimizing and safeguarding performance.
 * Adobe employs a multi-tiered approach to securing its applications to provide the highest level of availability and reliability for customers. 
 * [!DNL Target] Consulting offers implementation assistance and ongoing product support.
 
-## Search Engine Optimization (SEO) Friendly Testing {#concept_C0C865663CAB4251B66A1F250FD25E6A}
+## Search Engine Optimization (SEO) friendly testing {#concept_C0C865663CAB4251B66A1F250FD25E6A}
 
 [!DNL Adobe Target] aligns with search engine guidelines for testing.
 
