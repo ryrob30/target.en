@@ -53,9 +53,9 @@ The Developer Tools should be viewed on a page where the activity will be delive
 
 1. Click the **[!UICONTROL Network]** tab.
 
-1. Filter for ‘/ss,’ to display the analytics requests.
+1. Filter for `/ss,` to display the analytics requests.
 
-   ![Chrome developer tools](/help/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools-2.png)
+   ![Chrome developer tools with /ss search](/help/c-integrating-target-with-mac/a4t/assets/chrome-search.png)
 
    The tracking server is the hostname of the request.
 
