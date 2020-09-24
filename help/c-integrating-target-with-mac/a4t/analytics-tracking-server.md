@@ -1,5 +1,5 @@
 ---
-keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;Adobe Experience Cloud debugger;reporting source;developer tools
+keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;Adobe Experience Platform debugger;reporting source;developer tools
 description: If you are using an older version of at.js or mbox.js, you must specify an analytics tracking server for activities that use Analytics for Target (A4T).
 title: Use an Analytics tracking server
 feature: a4t general
@@ -37,6 +37,7 @@ The debugger should be viewed on a page where the activity will be delivered to 
    * **CNAME implementations**: `sstats.adobe.com` is an example of a CNAME first-party tracking server for an https (secure) request. `stats.adobe.com` is an example of a CNAME first-party request for an http (non-secure) page.
 
 1. Copy the entire contents of the field.
+
 1. In the **[!UICONTROL Reporting Settings]** section of the **[!UICONTROL Goal & Settings]** screen of your activity, paste the tracking server information in the **[!UICONTROL Tracking Server]** field.
 
    >[!NOTE]
@@ -62,4 +63,12 @@ The Developer Tools should be viewed on a page where the activity will be delive
    * **First-party tracking server**: If the hostname of the request matches the domain you are on, then it’s a first-party tracking server. For example, if you are on `adobe.com`, `adobe.com` is the first-party tracking server.
    * **Third-party tracking server**: A third-party tracking server is typically `[company].sc.omtrdc.net` where the company is the name of your company, but always ends in `sc.omtrdc.net`.
    * **CNAME implementations**: `sstats.adobe.com` is an example of a CNAME first-party tracking server for an https (secure) request. `stats.adobe.com` is an example of a CNAME first-party request for an http (non-secure) page.
+
+1. Copy the entire contents of the field.
+
+1. In the **[!UICONTROL Reporting Settings]** section of the **[!UICONTROL Goal & Settings]** screen of your activity, paste the tracking server information in the **[!UICONTROL Tracking Server]** field.
+
+   >[!NOTE]
+   >
+   >You must select [!UICONTROL Analytics as the Reporting Source] for your activity for the [!UICONTROL Tracking Server] field to be available.
 
