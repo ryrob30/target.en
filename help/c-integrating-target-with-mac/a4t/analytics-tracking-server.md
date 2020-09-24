@@ -6,9 +6,9 @@ feature: a4t general
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 ---
 
-# Use an Analytics tracking server{#use-an-analytics-tracking-server}
+# Use an Analytics tracking server
 
-If you are using an older version of at.js or mbox.js, you must specify an analytics tracking server for activities that use [!DNL Analytics] for [!DNL Target] (A4T).
+If you are using an older version of at.js or mbox.js, you must specify an Analytics tracking server for activities that use [!DNL Analytics] for [!DNL Target] (A4T).
 
 >[!NOTE]
 >
@@ -16,9 +16,9 @@ If you are using an older version of at.js or mbox.js, you must specify an analy
 >
 >The [!DNL Target] team supports both at.js 1.*x* and at.js 2.*x*. Please upgrade to the most recent update of either major version of at.js to ensure that you are running a supported version. For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
-To ensure that data from [!DNL Target] goes to the correct location in [!DNL Analytics], A4T requires an analytics tracking server to be sent in all calls to Modstats from [!DNL Target]. For implementations using multiple tracking servers you can use the [!DNL Adobe Experience Platform Debugger] or your browser's Developer Tools to determine the correct tracking server for your activity.
+To ensure that data from [!DNL Target] goes to the correct location in [!DNL Analytics], A4T requires an Analytics tracking server to be sent in all calls to Modstats from [!DNL Target]. For implementations using multiple tracking servers you can use the [!DNL Adobe Experience Platform Debugger] or your browser's Developer Tools to determine the correct tracking server for your activity.
 
-## Get the analytics tracking server using the Adobe Experience Platform Debugger
+## Get the Analytics tracking server using the Adobe Experience Platform Debugger
 
 The debugger should be viewed on a page where the activity will be delivered to ensure you select the correct tracking server. You can also specify a default tracking server for each account. Contact Customer Care to specify or modify the default.
 
@@ -30,7 +30,7 @@ The debugger should be viewed on a page where the activity will be delivered to 
 
 1. Click **[!UICONTROL Analytics]** in the left navigation menu.
 
-   The analytics tracking server is found in the [!UICONTROL Hostname] section of the debugger.
+   The Analytics tracking server is found in the [!UICONTROL Hostname] section of the debugger.
 
    * **First-party tracking server**: If the hostname of the request matches the domain you are on, then it’s a first-party tracking server. For example, if you are on `adobe.com`, `adobe.com` is the first-party tracking server.
    * **Third-party tracking server**: A third-party tracking server is typically `[company].sc.omtrdc.net` where the company is the name of your company, but always ends in `sc.omtrdc.net`.
@@ -44,7 +44,7 @@ The debugger should be viewed on a page where the activity will be delivered to 
    >
    >You must select [!UICONTROL Analytics as the Reporting Source] for your activity for the [!UICONTROL Tracking Server] field to be available.
 
-## Get the analytics tracking server using your browser's Developer Tools
+## Get the Analytics tracking server using your browser's Developer Tools
 
 The Developer Tools should be viewed on a page where the activity will be delivered to ensure you select the correct tracking server. You can also specify a default tracking server for each account. Contact Customer Care to specify or modify the default.
 
@@ -54,7 +54,7 @@ The Developer Tools should be viewed on a page where the activity will be delive
 
 1. Click the **[!UICONTROL Network]** tab.
 
-1. Filter for `/ss,` to display the analytics requests.
+1. Filter for `/ss,` to display the Analytics requests.
 
    ![Chrome developer tools with /ss search](/help/c-integrating-target-with-mac/a4t/assets/chrome-search.png)
 
