@@ -261,7 +261,7 @@ This example uses the count variable to construct the CSS selectors. In a real-l
 
 Note that this example uses `prefetch > mboxes`, but you could also use `execute > mboxes`. Ensure that if you use prefetch in `getOffers()`, you should also use prefetch in the `applyOffers()` invocation.
 
-## Call Call `getOffers()` to perform a pageLoad
+## Call `getOffers()` to perform a pageLoad
 
 The following example shows you how to perform a pageLoad using getOffers() with at.js 2.*x*
 
