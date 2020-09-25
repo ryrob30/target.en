@@ -1,7 +1,7 @@
 ---
 keywords: visitor profile;target visitor profile
 description: Create audiences in Adobe Target to target visitors who meet specific profile parameters.
-title: Visitor Profile
+title: Visitor Profile options in Adobe Target audiences
 feature: audiences
 uuid: 462c80f4-bd5f-4dce-b02b-21b2c33c5bf6
 ---

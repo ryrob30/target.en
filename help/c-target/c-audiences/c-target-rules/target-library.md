@@ -1,7 +1,7 @@
 ---
 keywords: Targeting;target library;library
 description: Target users based on pre-built targeting rules.
-title: Target Library
+title: Target library options in Adobe Target audiences
 feature: audiences
 uuid: 62e894a8-e3ca-4c1d-883a-976daf041506
 ---

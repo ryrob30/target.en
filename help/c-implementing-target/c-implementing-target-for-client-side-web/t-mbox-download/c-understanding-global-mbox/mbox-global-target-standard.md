@@ -38,6 +38,6 @@ To use your existing global mbox for both [!DNL Target] and your legacy implemen
 
 The following FAQs can be used to troubleshoot your global mbox implementation:
 
-### Why is the global mbox not loading, or why is there latency in loading the global mbox when the page loads?*
+### Why is the global mbox not loading, or why is there latency in loading the global mbox when the page loads?
 
 Make sure the at.js reference is the first JavaScript call on the page. For other solutions to this problem, see [Global mbox Frequently Asked Questions](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md). 
