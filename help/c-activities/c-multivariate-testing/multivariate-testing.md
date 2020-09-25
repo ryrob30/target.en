@@ -22,7 +22,7 @@ Multivariate tests also help you find compound effects between two or more eleme
 
 In Target, each combination is one experience. The multivariate test compares each experience so you can learn which combinations are the most successful. At the same time, data is collected and analyzed to understand how each location and the offers influence the success metric.
 
-![](assets/multivariate.png){width="672px"}
+![](assets/multivariate.png)
 
 Because of the number of combinations that can be generated, a multivariate test requires more time and traffic than an A/B test. The page must receive enough traffic to produce statistically significant results for each experience. To obtain useful results, you need to understand the amount of traffic your page receives and test the optimal number of combinations for the right amount of time to get the required results. Target's [Traffic Estimator](../../c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) can help you design a test that works with your traffic. Before you use the Traffic Estimator, you should have good statistics showing the number of impressions and conversions your site normally receives. Consider your traffic levels per day. The more experiences in an activity, the more traffic the activity will need to include or the longer your activity will need to run. If your traffic isn't very high, you should test a small number of combinations; otherwise, the amount of time required to produce meaningful test results might be too long to be useful.
 

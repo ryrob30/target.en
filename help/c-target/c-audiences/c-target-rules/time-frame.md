@@ -1,7 +1,7 @@
 ---
 keywords: time frame;start date;end date;start/end dates;timeframe;target schedule;week parting;day parting;parting
 description: You can add start/end dates and times to target users who visit your site during a specific time frame. You can also set Week and Day Parting options to create recurring patterns for audience targeting.
-title: Time Frame
+title: Time frame options in Adobe Target audiences
 feature: audiences
 uuid: 6c75014b-f0fd-4f76-a84f-b841bf87f1d7
 ---

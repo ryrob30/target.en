@@ -1,7 +1,7 @@
 ---
 keywords: Targeting;traffic sources;target traffic sources;target search engine;search engine;landing page;target landing page;referring landing page
 description: Create audiences in Adobe Target to target visitors based on the search engine or landing page that refers them to your site.
-title: Target Traffic Sources in Adobe Target
+title: Traffic Sources options in Adobe Target audiences
 feature: audiences
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
 ---
@@ -22,13 +22,13 @@ You can combine multiple traffic sources to create a complex targeting rule.
 
 1. Click **[!UICONTROL Select]**, then select one of the following options:
 
-    * From Baidu 
-    * From Bing 
-    * From Google 
-    * From Yahoo 
-    * Referring Landing Page: URL 
-    * Referring Landing Page: Domain 
-    * Referring Landing Page: Query
+   * From Baidu 
+   * From Bing 
+   * From Google 
+   * From Yahoo 
+   * Referring Landing Page: URL 
+   * Referring Landing Page: Domain 
+   * Referring Landing Page: Query
 
    Depending on your selection, you might need to provide additional information (evaluator and/or values).
 

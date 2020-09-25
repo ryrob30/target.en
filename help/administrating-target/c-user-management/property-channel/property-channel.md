@@ -116,6 +116,7 @@ Each role has different levels of permissions:
 |Editor|Can create and edit activities before they are live, but cannot approve the launch of an activity.|
 |Observer|Can view activities, but cannot create or edit them.|
 |Publisher|Similar to the Observer role (can view activities, but cannot create or edit them). However, the Publisher role has the additional permission to activate activities.|
+
 It is important to note that each user's role applies to every page, property, or site in your account that includes [!DNL Target] tags, as shown below:
 
 ![](assets/permissions_2.png)
