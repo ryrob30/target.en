@@ -1,7 +1,7 @@
 ---
 keywords: adobe.target.applyOffer;applyOffer;applyoffer;apply offer;at.js;functions;function
 description: Information about the adobe.target.applyOffer(options) function for the Adobe Target at.js JavaScript library.
-title: Information about the adobe.target.applyOffer() function for the Adobe Target at.js JavaScript library.
+title: adobe.target.applyOffer(options)
 feature: client-side 
 subtopic: Getting Started
 topic: Standard

@@ -1,7 +1,7 @@
 ---
 keywords: adobe.target.trackEvent;trackEvent;trackevent;track event;at.js;functions;function;preventDefault;preventdefault;prevent default
 description: Information about the adobe.target.trackEvent(options) function for the Adobe Target at.js JavaScript library.
-title: Information about the adobe.target.trackEvent(options) function for the Adobe Target at.js JavaScript library.
+title: adobe.target.trackEvent(options)
 feature: client-side
 subtopic: Getting Started
 topic: Standard
