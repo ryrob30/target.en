@@ -63,7 +63,7 @@ Double quotes must be escaped. For example, `"[""test"", ""value""]"` is a valid
 
 You can include up to 500 values in a multi-value attribute.
 
-**Using targetPageParams**
+### Using targetPageParams
 
 The following example shows how to use `targetPageParams`
 
@@ -82,7 +82,7 @@ function targetPageParams() {
 }
 ```
 
-**Using CSV**
+### Using CSV
 
 You can manage your CSV files in raw form using a text editor, or you can use spreadsheet software.
 
@@ -101,7 +101,7 @@ When converting to .csv format, the spreadsheet software adds double quotation m
 
 Use caution when editing a raw catalog CSV file directly.
 
-**Using APIs**
+### Using APIs
 
 You can pass multi-value attributes using the Delivery API in an mbox parameter as a string value containing an escaped JSON array.
 
@@ -254,6 +254,6 @@ Example:
 
 When `entity.genre=["genre1","genre2"]` is referenced in a design as `$entity<N>.genre`, the result is `genre1, genre2`. 
 
->[!MORELIKETHIS]
->
->* [Entity Attributes](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
+## Related topics:
+
+* [Entity Attributes](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
