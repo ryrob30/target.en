@@ -70,7 +70,10 @@ The list of report suites that appears in Target Standard/Premium is the list of
 
 ## I'm not seeing as much data in reports as expected. {#section_75002584FA63456D8D9086172925DD8D}
 
-Review your implementation, especially on pages where your visitors qualify for experiences and ensure that the supplemental data IDs match in the [!DNL Target] and [!DNL Analytics] calls. In the [!DNL Target] call, the supplemental ID is contained in the `mboxMCSDID` parameter. In the [!DNL Analytics] call, the supplemental ID is contained in the `sdid` parameter.
+Review your implementation, especially on pages where your visitors qualify for experiences and ensure that the supplemental data IDs match in the [!DNL Target] and [!DNL Analytics] calls. 
+
+* **at.js 1.x**: In the [!DNL Target] call, the supplemental ID is contained in the `mboxMCSDID` parameter. In the [!DNL Analytics] call, the supplemental ID is contained in the `sdid` parameter.
+* **at.js 2.x**: The supplemental ID is returned in the HTTP header as the value for `experienceCloud.analytics.supplementalDataId`.
 
 If there is no supplemental data ID in the [!DNL Target] call, confirm that the [!DNL VisitorAPI.js] file is loaded before [!DNL at.js] or [!DNL mbox.js]. If there is no supplemental data ID in the [!DNL Analytics] call, confirm that the [!DNL Target] call fires before the [!DNL Analytics] call.
 
