@@ -68,7 +68,7 @@ Hits that contain data from [!DNL Analytics] and [!DNL Target] contain a supplem
 * The visitor ID service is in implemented 
 * A version of [!DNL mbox.js] that supports this integration is implemented.
 
-When troubleshooting, be sure to confirm that the supplemental ID is present on [!DNL Analytics] hits.
+When [troubleshooting](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md), be sure to confirm that the supplemental ID is present on [!DNL Analytics] hits.
 
 ## Client-side Analytics logging {#client-side}
 
