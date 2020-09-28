@@ -177,7 +177,7 @@ The profit margin or other value of the item.
 
 Example: `'entity.margin=1.00'`
 
-### entity.<custom>
+### entity.*custom*
 
 Supports multi-value (JSON array).
 
