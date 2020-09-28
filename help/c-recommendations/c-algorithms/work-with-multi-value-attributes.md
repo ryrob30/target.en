@@ -82,7 +82,7 @@ JSON API representation of the inclusion rule:
     "attribute": "id",
     "operation": "isNotContainedInList",
     "source": {
-        "name": " user.lastWatchedMovies",
+        "name": "user.lastWatchedMovies",
         "type": "PROFILE"
     }
 } 
