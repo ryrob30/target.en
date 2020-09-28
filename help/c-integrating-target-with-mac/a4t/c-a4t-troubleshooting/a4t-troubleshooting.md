@@ -75,6 +75,12 @@ Review your implementation, especially on pages where your visitors qualify for 
 * **at.js 1.x**: In the [!DNL Target] call, the supplemental ID is contained in the `mboxMCSDID` parameter. In the [!DNL Analytics] call, the supplemental ID is contained in the `sdid` parameter.
 * **at.js 2.x**: The supplemental ID is returned in the HTTP header as the value for `experienceCloud.analytics.supplementalDataId`.
 
+The easiest way to examine the supplemental ID is by using the Adobe Experience Platform Debugger.
+
+If you have not installed the debugger, see [Introduction to the Adobe Experience Platform Debugger](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html).
+
+![Debugger](/help/c-integrating-target-with-mac/a4t/assets/debugger.png)
+
 If there is no supplemental data ID in the [!DNL Target] call, confirm that the [!DNL VisitorAPI.js] file is loaded before [!DNL at.js] or [!DNL mbox.js]. If there is no supplemental data ID in the [!DNL Analytics] call, confirm that the [!DNL Target] call fires before the [!DNL Analytics] call.
 
 For more information, see [Analytics for Target Implementation](../../../c-integrating-target-with-mac/a4t/a4timplementation.md#concept_CE78750AC2A4487D8ACD9369B3EAC85A) or contact [Customer Care](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
