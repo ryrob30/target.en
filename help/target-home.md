@@ -1,11 +1,11 @@
 ---
 keywords: Target;home;popular topics;adobe target;standard;premium;target documentation;adobe target documentation
-title: Adobe Target product documentation
+title: Adobe Target Guide
 feature: landing
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 ---
 
-# [!DNL Adobe Target] product documentation{#adobe-target-product-documentation}
+# [!DNL Adobe Target] Guide
 
 ![banner](assets/target-home-banner-simple.png)
 
