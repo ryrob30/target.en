@@ -1,6 +1,8 @@
 ---
 keywords: Target;home;popular topics;adobe target;standard;premium;target documentation;adobe target documentation
 title: Adobe Target Guide
+description: View the home page of the Target Guide.
+seo-description: Adobe Target is the Adobe Experience Cloud solution that provides everything you need to tailor and personalize your customers' experience so you can maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
 feature: landing
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 ---
