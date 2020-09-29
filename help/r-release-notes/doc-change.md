@@ -15,6 +15,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|September 29|[Troubleshoot the Analytics and Target integration (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#section_75002584FA63456D8D9086172925DD8D)|Added information about how to inspect the supplemental ID in at.js 1.x and at.js 2.x.|
 |September 24|[Activity QA bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md)|Updated the code for the activity QA bookmarklet for at.js 2.*x*.|
 ||[Catalog search](/help/c-recommendations/c-products/catalog-search.md#faq)|Added a note about searching on a custom attribute with a numeric value.|
 ||[Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)|Added the following FAQ: "Why does Catalog Search not show the correct results when I search on a custom attribute with a numeric value?"|

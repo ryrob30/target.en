@@ -73,7 +73,7 @@ The list of report suites that appears in Target Standard/Premium is the list of
 Review your implementation, especially on pages where your visitors qualify for experiences and ensure that the supplemental data IDs match in the [!DNL Target] and [!DNL Analytics] calls. 
 
 * **at.js 1.x**: In the [!DNL Target] call, the supplemental ID is contained in the `mboxMCSDID` parameter. In the [!DNL Analytics] call, the supplemental ID is contained in the `sdid` parameter.
-* **at.js 2.x**: The supplemental ID is returned in the HTTP header as the value for `experienceCloud.analytics.supplementalDataId`.
+* **at.js 2.x**: In the [!DNL Target] call, the supplemental ID is returned in the HTTP header as the value for `experienceCloud.analytics.supplementalDataId`. In the [!DNL Analytics] call, the supplemental ID is contained in the `sdid` parameter.
 
 The easiest way to examine the supplemental ID is by using the Adobe Experience Platform Debugger.
 
