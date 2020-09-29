@@ -8,7 +8,7 @@ uuid: 27672881-a79c-4271-9a61-defddb9a5249
 
 # ![PREMIUM](/help/assets/premium.png) Entity attributes{#entity-attributes}
 
-Use entity attributes to pass product or content information to ∂.
+Use entity attributes to pass product or content information to [!DNL Adobe Target Recommendations].
 
 [!DNL Recommendations] sends the `productId` or `productPurchasedId` (referred to as `entity.id` in the code) that is used in the algorithms.
 
