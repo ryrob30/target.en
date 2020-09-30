@@ -15,7 +15,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|September 2|[Release Notes](/help/r-release-notes/release-notes.md): 20.9.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
+|September 20|[Target announcements and events](/help/r-release-notes/target-announcements.md)|Added information about the following live webinar:<ul><li>Adaptive, Fine-tuned Personalization at Scale with Adobe Target and Analytics</li></ul>|
+||[Release Notes](/help/r-release-notes/release-notes.md): 20.9.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
 
 ## Adobe Target Standard/Premium 20.8.1 (September 2, 2020)
 
