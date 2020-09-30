@@ -14,6 +14,23 @@ Announcements and information about upcoming events, including Target Skill Buil
 
 Adobe was once again named a Leader in the third-annual Gartner Magic Quadrant for Personalization Engines, 2020 report. The Gartner Magic Quadrant for Personalization Engines evaluated vendors across 15 criteria that fall into two categories: completeness of vision and ability to execute. [Read about it on The Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
 
+## Webinar: Adaptive, Fine-tuned Personalization at Scale with Adobe Target and Analytics
+
+* **Tuesday, October 27, 2020**
+* **8am PT | 10am CT | 11am ET**
+* **Duration: 60 minutes**
+
+Digital adoption is surging right now, bringing brand new segments of customers to digital with high expectations on finding what they need and receiving exceptional care and customer service. Personalization is mission critical for adapting to immediate change and evolving your business for the future.
+
+In this webinar, we’ll show how [!DNL Adobe Target] can take action with confidence on [!DNL Analytics] insights and audience segments, ensuring companies across industries can rapidly evolve their business with AI-powered personalization backed with a full view of performance impact in Analytics-enhanced reporting.
+
+In this webinar, you'll learn:
+
+* How the unique server-to-server integration between [!DNL Adobe Analytics] and [!DNL Adobe Target] enables a unified profile, audiences, and reporting for rapid performance-driven personalization
+* Tips & Tricks on how companies are saving hours in “analysis paralysis” and are rapidly personalizing their critical customer interactions at scale
+
+[Register here for this exciting event.](https://www.adobeeventsonline.com/Webinar/2020/PersonalizationScale/invite.html)
+
 ## Webinar: How HSBC leverages Adobe Target and AI to rapidly optimize and deliver personalization at scale
 
 * **For the next 30 days, you can click here to view the [Webinar Recording](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
