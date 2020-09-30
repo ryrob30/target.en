@@ -25,6 +25,14 @@ These release notes provide information about features, enhancements, and fixes 
 
 The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
+## Target Standard/Premium 20.9.1 (September 30, 2020)
+
+This maintenance release contains the following enhancements, fixes, and changes:
+
+* Improved navigation and functionality for keyboard-only users. (TGT-34487, TGT-34516, TGT-34517, TGT-34514)
+* Added labels in the UI to aid users using assistive technologies. (TGT-34500, TGT-34501, TGT-34502, TGT-24504)
+* Improved text and color contrast for images and text in UI. (TGT-34513)
+
 ## Target Standard/Premium 20.8.3 (September 15, 2020)
 
 |Feature|Details|
