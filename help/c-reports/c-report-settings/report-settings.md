@@ -1,6 +1,6 @@
 ---
 keywords: Target;reports;report settings;preset;target preset;metric;audience;date range;settings;download;table view;graph view;average lift;lift;lift bound;confidence interval;confidence;location contribution;running average;counting methodology
-description: Information to help you set the elements you want to appear in your report. Report settings can be saved for later use.
+description: Information to help you set the elements you want to appear in your Adobe Target report. Report settings can be saved for later use.
 title: Report settings
 feature: report settings
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
@@ -8,15 +8,18 @@ uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 
 # Report settings{#report-settings}
 
-Information to help you set the elements you want to appear in your report. Report settings can be saved for later use.
+Information to help you set the elements you want to appear in your report in [!DNL Adobe Target]. Report settings can be saved for later use.
 
-To display a report, click **[!UICONTROL Activities]**, click the desired activity from the list, then click the **[!UICONTROL Reports]** tab.
+To display a report: 
 
-![Report UI](/help/c-reports/c-report-settings/assets/report_ui-new.png)
+1. Click **[!UICONTROL Activities]**, then click the desired activity from the list.
+1. Click the **[!UICONTROL Reports]** tab.
+
+   ![Report UI](/help/c-reports/c-report-settings/assets/report_ui-new.png)
 
 ## Target Preset {#section_51F67341465045BEB4F1A2FB638A8EB1}
 
-You can save up to ten different presets of an individual activity's report after configuring it as desired (metrics, date ranges, audiences, advanced settings, and so forth). All Target users can display, edit, and delete the various presets, regardless of who created them.
+You can save up to ten different presets of an individual activity's report after configuring it as desired (metrics, date ranges, audiences, advanced settings, and so forth). All [!DNL Target] users can display, edit, and delete the various presets, regardless of who created them.
 
 You can also configure an individual activity's report as desired and then save that configuration as your default/favorite preset. This is the view that displays whenever you view that activity's report going forward.
 
@@ -34,8 +37,8 @@ You can also configure an individual activity's report as desired and then save 
 
    ![New Preset dialog box](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
 
-1. Review the information in the Filters and Settings sections to ensure that the report is configured as desired, then specify the **[!UICONTROL Preset Name]** (up to 50 characters). 
-1. (Conditional) If you want this to be your default/favorite report view, slide the **[!UICONTROL Set This as Default Preset]** toggle to the On position. 
+1. Review the information in the **[!UICONTROL Filters]** and **[!UICONTROL Settings]** sections to ensure that the report is configured as desired, then specify the **[!UICONTROL Preset Name]** (up to 50 characters). 
+1. (Conditional) If you want this to be your default/favorite report view, slide the **[!UICONTROL Set as default preset]** toggle to the On position. 
 1. Click **[!UICONTROL Save]**.
 
 ### Select a different preset
@@ -44,7 +47,7 @@ Select the desired preset from the **[!UICONTROL Target Preset]** drop-down list
 
 ![Preset drop-down list](/help/c-reports/c-report-settings/assets/report_preset_drop-down-new.png)
 
-### Edit a Preset
+### Edit a preset
 
 1. Select the preset that you want to edit. 
 1. Edit the report's configuration as desired (metrics, date ranges, audiences, advanced settings, and so forth).
@@ -68,7 +71,7 @@ Select the desired preset from the **[!UICONTROL Target Preset]** drop-down list
 
    ![Report Default delete](/help/c-reports/c-report-settings/assets/report_preset_delete-new.png)
 
-1. Click **[!UICONTROL Delete]** again to confirm your deletion.
+1. Click **[!UICONTROL Delete]** again to confirm your deletion (deleted presets cannot be recovered).
 
 ### Preset error handling
 
@@ -102,7 +105,7 @@ The Date Range box displays the report's current date range. Click the drop-down
 
 ![Calendar](/help/c-reports/c-report-settings/assets/date_range-new.png)
 
-Select new **[!UICONTROL Start]** and **[!UICONTROL End]** dates for the report. You can also use the **[!UICONTROL From Start of Activity]** and **[!UICONTROL Till End of Activity]** check boxes.
+Select new **[!UICONTROL Start]** and **[!UICONTROL End]** dates for the report. You can also use the **[!UICONTROL From start of Activity]** and **[!UICONTROL Till end of Activity]** check boxes.
 
 Click **[!UICONTROL Custom Dates]** to select pre-defined date ranges: Last 7 Days, Last 15 Days, or Last 30 Days. These pre-defined date ranges are rolling ranges. If the start date is less than the number of days chosen, the calendar will show the range from the start date but roll on once the start date becomes older than the number of days chosen as the activity duration increases.
 
@@ -114,7 +117,10 @@ Reports have the following date restrictions:
 
 ## Settings {#section_D99CE462107D45CABE0960F820E1E972}
 
-Click the Gear icon to configure report settings, then click **[!UICONTROL Save Settings]** when done.
+To configure report settings: 
+
+1. Click the gear icon, make desired changes (as explained below).
+1. Click **[!UICONTROL Save]** when done.
 
 The following illustration shows the Settings dialog box for an A/B activity:
 
@@ -122,29 +128,45 @@ The following illustration shows the Settings dialog box for an A/B activity:
 
 Depending on the selected activity type, the options vary:
 
-* **Counting Methodology:** Select the desired methodology:
+### Counting Methodology
 
-    * Visitors 
-    * Visits 
-    * Activity Impressions
+Select the desired methodology:
 
-* **Control:** Select the control experience to use when calculating and comparing lift.  
-* **Environment:** Select the environment (host group) to use for the report.  For more information, see [Hosts](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E). 
-* **Reset Report Data:** Reset reporting data to remove old data. Current visitors will remain in the activity.  This option is available only for those with approver permissions.
+* Visitors 
+* Visits 
+* Activity Impressions
+
+### Control
+
+Select the control experience to use when calculating and comparing lift.
+
+### Environment
+
+Select the environment (host group) to use for the report. For more information, see [Hosts](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+
+### Reset Report Data
+
+Reset reporting data to remove old data. Current visitors will remain in the activity.  This option is available only for those with [!UICONTROL Approver] permissions.
 
   >[!IMPORTANT]
   >
   >This is a permanent action and cannot be undone.
 
-* **Exclude Extreme Values:** The [!UICONTROL Exclude Extreme Values] toggle applies to activities with Revenue and Engagement metric types only. For more information, see [Excluding Extreme Orders](../../c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
+### Exclude Extreme Values
+
+The [!UICONTROL Exclude Extreme Values] toggle applies to activities with Revenue and Engagement metric types only. For more information, see [Excluding Extreme Orders](../../c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
 
 ## Download {#section_77E65C50BAAF4AB79242DB3A8778ADEF}
 
-Click the Download icon to download report data in a [!DNL .csv] format for quick import into Excel, Access, or other data analysis programs. For more information, see [Downloading Data in a CSV File](../../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75).
+Click the **[!UICONTROL Download]** icon to download report data in a [!DNL .csv] format for quick import into Excel, Access, or other data analysis programs. 
+
+![Download icon](/help/c-reports/c-report-settings/assets/download-icon.png)
+
+For more information, see [Downloading Data in a CSV File](../../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75).
 
 ## Refresh {#section_E203729F2F314DF3856D2EE67C60B370}
 
-Click the Refresh icon to refresh a report's table and graph view without refreshing the entire page, its configuration, or its date range.
+Click the **[!UICONTROL Refresh]** icon to refresh a report's table and graph view without refreshing the entire page, its configuration, or its date range.
 
 ## More options {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
 
@@ -196,23 +218,20 @@ Select the desired graph view:
 
 * Running Average 
 * Running Average Lift 
-* Daily Control
-* Daily Targeted
+* Daily
 * Daily Lift
 
 ![Report Running Average](/help/c-reports/c-report-settings/assets/report_running_average-new.png)
 
->[!NOTE]
->
->The name of this drop-down list varies depending on the selected view, but it'll be one of the views listed above.
+The name of this drop-down list varies depending on the selected view, but it'll be one of the views listed above.
 
 ## Counting Methodology {#section_01B0ED5665C74AE1AE97259800190C3E}
 
 (Available only when viewing the report in Graph View)
 
-You can choose the counting methodology for graphs in reports. Note that this is not supported for Automated Personalization (AP) activities.
+You can choose the counting methodology for graphs in reports. Note that this is not supported for [!UICONTROL Automated Personalization] (AP) activities.
 
-To access the Counting Methodology option, while viewing a report in graph mode, click the **[!UICONTROL My Primary Goal]** drop-down, then select the counting methodology.
+To access the [!UICONTROL Counting Methodology] option, while viewing a report in graph mode, click the **[!UICONTROL My Primary Goal]** drop-down, then select the counting methodology.
 
 The counting methodology will be the same as the one selected in the [!UICONTROL Settings] dialog, described above.
 
