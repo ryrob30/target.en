@@ -62,4 +62,4 @@ Consider the following FAQs as you work with the [!UICONTROL Traffic Estimator]:
 
 In certain circumstances, your traffic might be large enough for a personalized model to be built, but that traffic might inform [!DNL Target] that there is no meaningful difference between the personalized model and random. Although the model is built in [!DNL Target] and tested, it will not be deployed because the model is not significantly better than random.
 
-A possible reason for the model not being better than random might be that the offers are not significantly different from each other. If this is the case, you can try increasing the differences in the offers by making them more visually different or by changing the content itself.
+A possible reason for the model not being better than random might be that the offers are not significantly different from each other. If this is the case, you can try making the offers more visually different if the messaging is similar, or you can try changing the messaging itself.
