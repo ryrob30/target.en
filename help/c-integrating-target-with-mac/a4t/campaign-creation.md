@@ -124,17 +124,19 @@ The following metric types are unsupported as primary goal metrics:
 
 ### Limitations and notes
 
-**Auto-Allocate and Auto-Target**
+Some limitations and notes apply to both Auto-Allocate and Auto-Target. Other limitations and notes apply to one activity type or the other.
+
+#### Auto-Allocate and Auto-Target
 
 * The reporting source cannot be changed from [!DNL Analytics] to [!DNL Target] or vice versa after an activity has been activated.
 * Although calculated metrics are not supported as primary goal metrics, it is often possible to achieve the intended result by instead selecting a custom event as the primary goal metric. For example, if you want to optimize for a metric such as "form completions per visitor," select a custom event corresponding to "form completions" as your primary goal metric. [!DNL Target] automatically normalizes conversion metrics on a per-visit basis to account for uneven traffic distribution, so it is not necessary to use a calculated metric to perform normalization.
 * [!DNL Target] uses the "Same Touch" attribution model in the [!UICONTROL Auto-Allocate] A4T implementation.
 
-**Auto-Allocate**
+#### Auto-Allocate
 
 * [!UICONTROL Auto-Allocate] models continue to train every two hours, as usual.
 
-**Auto-Target**
+#### Auto-Target
 
 * [!UICONTROL Auto-Target] models continue to train every 24 hours, as usual. However, conversion event data coming from [!DNL Analytics] is delayed by an additional six to 24 hours. This delay means the distribution of traffic by [!DNL Target] will trail the latest events recorded in [!DNL Analytics]. This will have the largest effect in the first 48 hours after an activity is first activated; the activity’s performance will more closely mirror [!DNL Analytics] conversion behavior after five days have elapsed. You should consider using [!UICONTROL Auto-Allocate] instead of [!UICONTROL Auto-Target] for short-duration activities where most traffic occurs within the first five days of the activity’s life.
 * When using [!DNL Analytics] as the data source for an [!UICONTROL Auto-Target] activity, sessions are considered to be ended after six hours have elapsed. Conversions occurring after six hours will not be counted.
