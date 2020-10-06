@@ -85,15 +85,3 @@ The [!DNL Target] documentation is available in the following languages:
 * Chinese Simplified
 * Chinese Traditional
 * Korean 
-
-## Training video: Adobe Target in the Experience Cloud (4:59) ![Overview badge](/help/assets/overview.png) 
-
-This video includes information about [!DNL Adobe Target] in the [!DNL Experience Cloud].
-
-* Describe and understand the value of the Adobe Experience Cloud 
-* Log in to the Adobe Experience Cloud with your Adobe ID or create an Adobe ID 
-* Invite a new user to the Adobe Experience Cloud 
-* Link your Target account to the Adobe Experience Cloud 
-* Set Adobe Target as your default landing page
-
->[!VIDEO](https://www.youtube.com/v=7lwYrYC7vdM) 
