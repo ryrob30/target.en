@@ -1,6 +1,6 @@
 ---
 keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report
-description: Specialized reports are available to users of Automated Personalization.
+description: Specialized reports are available to users of Automated Personalization activities in Adobe Target.
 title: Automated Personalization Summary reports
 feature: reports
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
@@ -8,11 +8,11 @@ uuid: 959b6814-9686-4741-8a79-5957e64f6209
 
 # ![PREMIUM](/help/assets/premium.png) Automated Personalization Summary reports{#automated-personalization-summary-reports}
 
-Specialized reports are available to users of Automated Personalization.
+Specialized reports are available to users of [!UICONTROL Automated Personalization] activities in [!DNL Adobe Target].
 
 >[!NOTE]
 >
->Automated Personalization is available as part of the [!DNL Target Premium] solution. It is not included with [!DNL Target Standard] without a [Target Premium license](/help/c-intro/intro.md#premium).
+>[!UICONTROL Automated Personalization] is available as part of the [!DNL Target Premium] solution. It is not included with [!DNL Target Standard] without a [Target Premium license](/help/c-intro/intro.md#premium).
 
 1. Click **[!UICONTROL Activities]**, click the desired [!UICONTROL Automated Personalization] activity from the list, then click the **[!UICONTROL Reports]** tab.
 
@@ -34,7 +34,7 @@ The standard rules of results interpretation for A/B testing still apply, includ
 
 The [!UICONTROL Offer Level] report for the Random Forest experience compares the performance of each algorithm-applied offer to the same randomly served offer (Control). Thus, offers should not be compared against each other in this view.
 
-Click the experience algorithm (Random Forest or control) to view the Offer Level report.
+Click the experience algorithm (Random Forest or control) to view the [!UICONTROL Offer Level] report.
 
 ![](assets/ap_OfferLevelRpt.png)
 
@@ -43,3 +43,19 @@ Offers can be shown within report groups, and these report groups can be collaps
 >[!NOTE]
 >
 >The clock icon indicates that the algorithm model is still building. The checkmark icon indicates that the base algorithm has been established.
+
+## Automated Segments
+
+Click the [!UICONTROL Automated Segments] icon. This report shows how different visitors respond differently to the offers/experiences in your AP/AT activity. This report shows how different automated segments defined by Target's personalization models responded to the offers/experiences in the activity.
+
+![Automated segments icon](/help/c-reports/assets/icon-automated-sements-ap.png)
+
+For more information, see [Automated Segments report](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md).
+
+## Important Attributes
+
+Click the [!UICONTROL Important Attributes] icon. This report shows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. This report shows the top attributes that influenced the model and their relative importance.
+
+![Important attributes icon](/help/c-reports/assets/icon-important-attributes-ap.png)
+
+For more information, see [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md).
