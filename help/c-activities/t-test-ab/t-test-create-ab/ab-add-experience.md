@@ -31,7 +31,7 @@ For additional detail about experiences, see [Experiences](../../../c-experience
 
    >[!NOTE]
    >
-    >If you deliver an image from a source other than your main page (such as an image hosted on akamai.net and delivered on dell.com), then that image does not display in the thumbnail of the page shown in the flow diagram.
+   >If you deliver an image from a source other than your main page (such as an image hosted on akamai.net and delivered on dell.com), then that image does not display in the thumbnail of the page shown in the flow diagram.
 
 1. Click **[!UICONTROL Save]** when you are finished designing the experience.
 
