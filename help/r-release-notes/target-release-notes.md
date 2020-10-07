@@ -11,7 +11,7 @@ uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 
 This article contains prerelease information. Release dates, features, and other information are subject to change without notice. 
 
-**Last Updated: September 23, 2020**
+**Last Updated: October 7, 2020**
 
 To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages might be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
@@ -27,13 +27,13 @@ To view information about the current release, see [Target Release Notes](releas
 >
 >* **Target Announcements**: See the Target announcements page for information about upcoming events, including Target Skill Builder sessions, developer chats, webinars, and Target Coffee Break sessions. For more information, see [Target announcements](/help/r-release-notes/target-announcements.md).
 
-## Target Standard/Premium 20.9.1 (September 30, 2020)
+## Target Standard/Premium 20.10.1 (October 27, 2020)
 
-This maintenance release contains the following enhancements, fixes, and changes:
+This release contains the following new features:
 
-* Improved navigation and functionality for keyboard-only users. (TGT-34487, TGT-34516, TGT-34517, TGT-34514)
-* Added labels in the UI to aid users using assistive technologies. (TGT-34500, TGT-34501, TGT-34502, TGT-24504)
-* Improved text and color contrast for images and text in UI. (TGT-34513)
+|Feature|Details|
+| --- | --- |
+|On-device Decisions|On-device Decisions lets both marketers and product developers deliver experimentation and Machine Learning-driven personalization from within a user's device, across channels, at near-zero latency.<br>Speed and performance matters--in customer insights and user satisfaction. On-device Decisions lets marketers, and now product developers, test and optimize experiences right from within a users device, decreasing decision and load times to nearly zero for real-time, contextual experiences.<br>On-device Decisions allows you to compile all personalization and experimentation instructions onto "optimization artifacts," which are loaded onto customer devices. These zero-latency artifacts give marketers one-to-one personalization, behavioral retargeting, and real-time product and content recommendations, while giving developers and product owners direct code access to test user experiences and target and phase product launches, refining in real-time. And because On-device Decisions connects natively with [!DNL Adobe Experience Cloud] products, [!DNL Target] users get rapid analysis and faster experience iterations.|
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
 
