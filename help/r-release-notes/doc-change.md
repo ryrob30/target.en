@@ -15,6 +15,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|October 7|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about the Target Standard/Premium 20.10.1 release.|
 |October 1|[Estimate the traffic required for success](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md)|Added FAQ section.|
 |September 30|[Target announcements and events](/help/r-release-notes/target-announcements.md)|Added information about the following live webinar:<ul><li>Adaptive, Fine-tuned Personalization at Scale with Adobe Target and Analytics</li></ul>|
 ||[Release Notes](/help/r-release-notes/release-notes.md): 20.9.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|

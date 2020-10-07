@@ -13,7 +13,7 @@ uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 
 [!DNL Adobe Target] is the [!DNL Adobe Experience Cloud] solution that provides everything you need to tailor and personalize your customers' experience so you can maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
 
-**Last Updated: October 1, 2020 ( [See What Changed](r-release-notes/doc-change.md) )**
+**Last Updated: October 7, 2020 ( [See What Changed](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
