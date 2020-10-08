@@ -16,7 +16,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |Date|Topic|Changes|
 | --- | --- | --- |
 |October 8|[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)|Added the following resolved issue:<ul><li>[Auto-Target reporting](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)</li></ul>Moved the following issue from the Known Issues section to the Resolved Issues section:<ul><li>[Reporting](/help/r-release-notes/known-issues-resolved-issues.md#conversions-audiences)</li></ul>|
-||[Hybrid implementation](/help/c-implementing-target/hybrid-deployment.md)|New topic.|
+||[Hybrid implementation](/help/c-implementing-target/hybrid-implementation.md)|New topic.|
 |October 7|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about the Target Standard/Premium 20.10.1 release.|
 |October 1|[Estimate the traffic required for success](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md)|Added FAQ section.|
 |September 30|[Target announcements and events](/help/r-release-notes/target-announcements.md)|Added information about the following live webinar:<ul><li>Adaptive, Fine-tuned Personalization at Scale with Adobe Target and Analytics</li></ul>|
