@@ -120,7 +120,7 @@ Image offers on the Offers page sometimes retain the “processing” label for 
 
 As known issues above are resolved, they will be moved to the following sections and additional notes, if necessary, will be added.
 
-### Auto-Target reporting (#at-metrics)
+### Auto-Target reporting {#at-metrics}
 
 An issue has been resolved that impacted [!DNL Adobe Target Premium] users’ [!UICONTROL Auto-Target] reporting from September 15, 2:30 p.m. (PDT) to October 6, 9:25 a.m. (PDT). When viewing reports for the impacted conversion metrics (configured using either the [!UICONTROL Viewed a page]” or “[!UICONTROL Clicked on mbox]” option), the conversions rates are incorrectly reported. There is no known delivery issue at this time.
 
