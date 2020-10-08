@@ -120,7 +120,19 @@ Image offers on the Offers page sometimes retain the “processing” label for 
 
 As known issues above are resolved, they will be moved to the following sections and additional notes, if necessary, will be added.
 
-### Reporting
+### Auto-Target reporting (#at-metrics)
+
+An issue has been resolved that impacted [!DNL Adobe Target Premium] users’ [!UICONTROL Auto-Target] reporting from September 15, 2:30 p.m. (PDT) to October 6, 9:25 a.m. (PDT). When viewing reports for the impacted conversion metrics (“V[!UICONTROL iewed a page]” or “[!UICONTROL Clicked on mbox]”), the conversions rates are incorrectly reported. There is no known delivery issue at this time.
+
+To resynchronize and correct your reporting:
+
+1. Copy and save the impacted [!UICONTROL Auto-Target] activities.
+1. Activate the newly saved activities (if impacted activities were live).
+1. Delete the original (impacted) activities.
+
+(TGT-38522, CSO 20201006007)
+
+### Reporting {#conversions-audiences}
 
 Conversions currently increment differently based on which audience is used.
 

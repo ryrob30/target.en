@@ -159,6 +159,7 @@ type: Documentation
       + [Release notes - Target Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
       + [Release notes - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
       + [Transition from Target legacy APIs to Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
+   + [Hybrid implementation](/help/c-implementing-target/hybrid-implementation.md)
    + Email: implement Target {#implement-email}
       + [Email: implement Target overview](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
       + [Create an Adbox for an image](c-implementing-target/c-non-javascript-based-implementation/testing-content-with-the-adbox.md)
