@@ -1,19 +1,19 @@
 ---
 keywords: a4t;A4T;Analytics as the reporting source for Target
 description: You can configure an activity in Target Standard/Premium to use Adobe Analytics as the reporting source (A4T).
-title: Activity creation
+title: Create an activity that uses A4T as the reporting source
 feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 ---
 
-# Activity creation{#activity-creation}
+# Create an activity that uses Analytics as the reporting source
 
 You can configure an activity in [!DNL Target] to use [!DNL Adobe Analytics] as the reporting source (A4T).
 
 Before you set up an activity that uses [!DNL Analytics] as the reporting source, establish the goal for the activity, such as improving revenue per visitor (RPV) or increasing clicks on your shopping cart. Choose a final success metric for the activity. Although you can select additional metrics at any time in [!DNL Analytics], you must still specify a particular metric you expect this test to affect.
 
-## Create an activity that uses Analytics as the reporting source
+## Create the activity
 
 Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting source is similar to setting up a regular [!DNL Target] activity, with a few important differences. For example, you cannot select a segment for reporting while creating the activity because all segments available in [!DNL Analytics] can be applied when viewing a report. 
 
