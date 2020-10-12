@@ -6,7 +6,7 @@ feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 ---
 
-# Known issues and resolved issues{#known-issues-and-resolved-issues}
+# Known issues and resolved issues
 
 Information about known issues for this release of Target. Also includes information about issues that have been resolved.
 
@@ -17,6 +17,12 @@ Information about known issues for this release of Target. Also includes informa
 ## Known Issues {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 The following sections list the known issues for [!DNL Target]:
+
+### Analytics for Target (A4T) metrics for Auto-Allocate and Auto-Target activities
+
+A current known issue exists in the [!DNL Target] UI that allows users to select unsupported engagement and revenue metrics as your primary goal metric for optimization in [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities. Conversion metrics are supported; engagement and revenue metrics are *not* supported. If you select engagement or revenue goal metrics, an optimization model will not be built (even though the Target UI currently allows you to select unsupported goal metrics).
+
+For a list of supported and unsupported goal metrics, see [Supported goal metrics](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) in *Create an activity that uses Analytics as the reporting source*. (TNT-38409)
 
 ### Page delivery {#page-delivery}
 
