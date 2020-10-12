@@ -1,13 +1,13 @@
 ---
 keywords: auto-target;targeting;traffic allocation;frequently aske questions;faq;troubleshooting;trouble shooting
-
+description: Auto-Target in Adobe Target uses advanced machine learning to select from multiple high-performing marketer-defined experiences to personalize content and drive conversions. Auto-Target serves the most tailored experience to each visitor based on his or her individual customer profile and the behavior of previous visitors with similar profiles.
 title: Auto-Target
 feature: auto-target
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 ---
 
-# ![PREMIUM](/help/assets/premium.png) Auto-Target{#auto-target}
+# ![PREMIUM](/help/assets/premium.png) Auto-Target
 
 [!UICONTROL Auto-Target] uses advanced machine learning to select from multiple high-performing marketer-defined experiences to personalize content and drive conversions. Auto-Target serves the most tailored experience to each visitor based on his or her individual customer profile and the behavior of previous visitors with similar profiles. 
 
@@ -15,11 +15,19 @@ uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 >
 >[!UICONTROL Auto-Target] is available as part of the [!DNL Target Premium] solution. This feature is not available in [!DNL Target Standard] without a [!DNL Target Premium] license. For more information about the advanced features this license provides, see [Target Premium](/help/c-intro/intro.md).
 
+## Real-world success story using Auto-Target {#success}
+
+A major clothing retailer recently used an [!UICONTROL Auto-Target] activity with ten product category-based experiences (plus randomized control) to deliver the right content to the each visitor. "[!UICONTROL Add to Cart]" was chosen as the primary optimization metric. The targeted experiences had an average lift of 29.09%. After building the [!UICONTROL Auto-Target] models, the activity was set to 90% personalized experiences. 
+
+In just ten days, more than $1,700,000 in lift was achieved. 
+
+Keep reading to learn how to use [!UICONTROL Auto-Target] to increase lift and revenue for your organization.
+
+## Overview {#section_972257739A2648AFA7E7556B693079C9}
+
 While [creating an A/B activity using the three-step guided workflow](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72), you can choose to allocate traffic using the [!UICONTROL Auto-Target For Personalized Experiences] option:
 
 ![Auto target for personalized experiences option](/help/c-activities/assets/auto-target-ui-new.png)
-
-## Overview {#section_972257739A2648AFA7E7556B693079C9}
 
 The [!UICONTROL Auto-Target] option within the A/B activity flow lets you harness machine-learning to personalize based on a set of marketer-defined experiences in one click. [!UICONTROL Auto-Target] is designed to deliver maximum optimization, compared to traditional A/B testing or Auto Allocate, by determining which experience to display for each visitor. Unlike an A/B activity in which the objective is to find a single winner, [!UICONTROL Auto-Target] automatically determines the best experience for a given visitor (based on his or her profile and other contextual information) to deliver a highly personalized experience.
 
