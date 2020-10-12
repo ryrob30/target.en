@@ -16,6 +16,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |Date|Topic|Changes|
 | --- | --- | --- |
 |October 12|[Troubleshoot content delivery](/help/c-activities/c-troubleshooting-activities/content-trouble.md)|Updated [Retrieve the authorization token to use with debugging tools](/help/c-activities/c-troubleshooting-activities/content-trouble.md#section_BED130298E794D1FA229DB7C3358BA54) to indicate the permission level you must have to generate an authentication token.|
+||[Profile API settings](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)|Updated topic to indicate the permission level you must have to generate an authentication token.|
+||[Include the same experience on similar pages](/help/c-experiences/c-visual-experience-composer/temtest.md)|Added section to explain how to render the same activity across the entire domain.|
 |October 8|[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)|Added the following resolved issue:<ul><li>[Auto-Target reporting](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)</li></ul>Moved the following issue from the Known Issues section to the Resolved Issues section:<ul><li>[Reporting](/help/r-release-notes/known-issues-resolved-issues.md#conversions-audiences)</li></ul>|
 ||[Hybrid implementation](/help/c-implementing-target/hybrid-implementation.md)|New topic.|
 |October 7|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about the Target Standard/Premium 20.10.1 release.|

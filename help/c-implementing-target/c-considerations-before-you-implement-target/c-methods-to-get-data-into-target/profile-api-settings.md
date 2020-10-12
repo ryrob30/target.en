@@ -1,20 +1,20 @@
 ---
 keywords: implementation;api;profile;profile api settings;authentication token
-description: Enable or disable authentication for batch updates via API and generate a profile authentication token.
-title: Profile API settings
+description: Enable or disable authentication for batch updates via Adobe Target APIs and generate a profile authentication token.
+title: Profile API settings in Adobe Target
 feature: api
 subtopic: Getting Started
 topic: Standard
 uuid: 481b4a14-f10f-47cd-988d-9e6b8c4d5c00
 ---
 
-# Profile API settings{#profile-api-settings}
+# Profile API settings
 
-Enable or disable authentication for batch updates via API and generate a profile authentication token.
+Enable or disable authentication for batch updates via Adobe Target APIs and generate a profile authentication token.
 
-[!DNL Adobe Target] creates and maintains a profile for every individual user. This profile is stored on the [!DNL Target] edge cluster and is updated in real time after every visit, however, you can update a profile individually or in bulk via API.
+[!DNL Adobe Target] creates and maintains a profile for every individual user. This profile is stored on the [!DNL Target] edge cluster and is updated in real time after every visit; however, you can update a profile individually or in bulk via API.
 
-For added security, you can require that the Bulk Update API call require a valid access token to be passed in the header of the request. Users with [!UICONTROL Approver] permissions can generate and enable profile API authentication tokens.
+For added security, you can require that the Bulk Update API call require a valid access token to be passed in the header of the request.
 
 **To require authentication and to generate an access token using the Target UI:**
 
@@ -23,11 +23,23 @@ For added security, you can require that the Bulk Update API call require a vali
 
    ![](assets/profile_api_settings.png)
 
-1. (Conditional) If you enabled authentication requirements, click **[!UICONTROL Generate New Pfofile Authentication Token]**.
+1. (Conditional) If you enabled authentication requirements, click **[!UICONTROL Generate New Profile Authentication Token]**.
 
    ![](assets/profile_api_settings_2.png)
 
    The token expires according to the time listed in the [!UICONTROL Expires In] box.
+
+   You must have one of the following user permissions to generate an authentication token:
+
+   * At least [!UICONTROL Editor] permission (or [!UICONTROL Approver])
+
+     For more information for [!DNL Target Standard] customers, see [Specify roles and Permissions](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Users*. For more information for [!DNL Target Premium] customers, see [Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+
+   * Admin role on the workspace/product profile level
+
+     Workspaces are available to [!DNL Target Premium] customers only. For more information, see [Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+
+   * Admin Rights (Sysadmin permission) on the [!DNL Adobe Target] product level
 
    >[!NOTE]
    >
