@@ -1,5 +1,5 @@
 ---
-keywords: recommendations;recommendations activity;criteria
+keywords: recommendations;recommendations activity;criteria;algorithm
 description: Select the criteria to use in your Adobe Target Recommendations activity.
 title: Select criteria
 feature: recs creation
