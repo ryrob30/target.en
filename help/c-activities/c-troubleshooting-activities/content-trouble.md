@@ -18,9 +18,21 @@ If your page does not display the expected content, there are a few steps you ca
 
 mboxDebug is especially useful when you are setting up [!DNL Target] on your page to make sure the [!DNL Target] request is firing and the cookie is being set. However, it does not go into the kind of detail that is useful when debugging content delivery. If your activity does not appear on your page or undesired content appears, use mboxTrace to examine and debug the page in detail.
 
-## Retrieve the Authorization Token to Use With Debugging Tools {#section_BED130298E794D1FA229DB7C3358BA54}
+## Retrieve the authorization token to use with debugging tools {#section_BED130298E794D1FA229DB7C3358BA54}
 
 Because mboxTrace and mboxDebug can expose campaign data and profile data to external parties, an authorization token is required. The authorization token can be retrieved in the [!DNL Target] UI. The token is valid for six hours.
+
+You must have one of the following user permissions to generate an authentication token:
+
+* At least [!UICONTROL Editor] permission (or [!UICONTROL Approver])
+
+  For more information for [!DNL Target Standard] customers, see [Specify roles and Permissions](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Users*. For more information for [!DNL Target Premium] customers, see [Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+
+* Admin role on the workspace/product profile level
+
+  Workspaces are available to [!DNL Target Premium] customers only. For more information, see [Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+
+* Admin Rights (Sysadmin permission) on the [!DNL Adobe Target] product level
 
 To retrieve the authorization token:
 
@@ -46,7 +58,7 @@ The following parameters are available:
 |`?mboxTrace=window`|Prints into a popup window as a JSON string|
 |`?mboxTrace=disable`|Turns off tracing session mode|
 
-**Example mboxTrace Call**
+**Example mboxTrace call**
 
 `https://www.mysite.com/page.html?mboxTrace=window&authorization=f543abf-0111-4061-9619-d41d665c59a6`
 
@@ -59,7 +71,7 @@ Some of the information includes matched and unmatched segment and target IDs:
 * **Unmatched**: The request did not qualify in this call for those segments or targets. 
 * **Matched**: The request qualified for the specified segments or targets.
 
-**Using mboxTrace on Recommendations pages**: Adding mboxTrace as a query parameter on pages with recommendations replaces the Recommendations design on the page with an mboxTrace details window, which displays in-depth information about your recommendations, including:
+**Using mboxTrace on recommendations pages**: Adding mboxTrace as a query parameter on pages with recommendations replaces the Recommendations design on the page with an mboxTrace details window, which displays in-depth information about your recommendations, including:
 
 * Recommendations returned vs. recommendations requested 
 * The key used, and if it is generating recommendations 
@@ -109,7 +121,7 @@ Mbox.js sends a cookie called "em-disabled" to the visitor if target.js fails to
 
 The *`SiteCatalyst: purchase`* call can't be used for Purchase algorithm traffic data. Use the *`orderConfirmPage`* call instead.
 
-## Check Activity Priority {#section_3D0DD07240F0465BAF655D0804100AED}
+## Check activity priority {#section_3D0DD07240F0465BAF655D0804100AED}
 
 Form-based activities created with [!DNL Target Standard/Premium] might collide with activities created in the [!DNL Target Classic] UI that have the same priority and use the same [!DNL Target] request.
 
@@ -123,7 +135,7 @@ Upgrade to [!DNL mbox.js] version 58 or later.
 
 mbox.js version 58 and later executes non-JavaScript content for the global [!DNL Target] request immediately after the HTML `BODY` tag is present. JavaScript content inside `<script>` tags for the global [!DNL Target] request executes after the `DOMContentLoaded` event is fired. This order of content delivery ensures that JavaScript content for the global [!DNL Target] request is delivered and rendered properly.
 
-## Target Cookie Does Not Get Set {#section_77AFEB541C0B495EB67E29A4475DF960}
+## Target cookie does not get set {#section_77AFEB541C0B495EB67E29A4475DF960}
 
 If your site has a sub domain, such as [!DNL us.domain.com], but you need the Target cookie set on [!DNL domain.com] (instead of [!DNL us.domain.com]), you must override the `cookieDomain` setting. For more information, see [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 
