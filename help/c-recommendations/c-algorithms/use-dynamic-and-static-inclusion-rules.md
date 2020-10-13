@@ -53,20 +53,6 @@ For example, only recommend items that match the current item’s brand as in th
 
 If the mbox on a Brand Landing Page returns `entity.brand=Nike`, then only Nike products are returned and displayed on that page. Similarly, on the Brand Landing Page for the Adidas, only Adidas products are returned. With this type of dynamic inclusion rule, the user only has to specify one recommendation rule that returns relevant brand results across all brand pages rather than specifying a collection or a static filter to match each brand name.
 
-Available operators:
-
-* equals
-* does not equal
-* is between
-* contains
-* does not contain
-* starts with
-* ends with
-* value is present
-* value is not present
-* is greater than or equal to
-* is less than or equal to
-
 #### Profile Attribute Matching
 
 Filter dynamically by comparing items (entities) against a value in the user's profile.

@@ -15,6 +15,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|October 13|[Target announcements and events](/help/r-release-notes/target-announcements.md)|Added information about the following live webinar scheduled for November 10, 2020:<ul><li>Personalize and test at zero latency with on-device decisions from Adobe Target</li></ul>|
+||[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about the following live webinar scheduled for November 10, 2020:<ul><li>Personalize and test at zero latency with on-device decisions from Adobe Target</li></ul>|
 |October 12|[Troubleshoot content delivery](/help/c-activities/c-troubleshooting-activities/content-trouble.md)|Updated [Retrieve the authorization token to use with debugging tools](/help/c-activities/c-troubleshooting-activities/content-trouble.md#section_BED130298E794D1FA229DB7C3358BA54) to indicate the permission level you must have to generate an authentication token.|
 ||[Profile API settings](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)|Updated topic to indicate the permission level you must have to generate an authentication token.|
 ||[Auto-Target](/help/c-activities/auto-target-to-optimize.md)|Added real-world success story using Auto-Target.|
