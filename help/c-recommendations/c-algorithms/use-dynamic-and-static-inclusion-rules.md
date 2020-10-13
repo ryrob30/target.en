@@ -33,13 +33,25 @@ The following table lists the types of filtering options for both criteria and p
 
 ### Dynamic Filtering
 
+Dynamic inclusion rules are more powerful than static inclusion rules and they yield better results and engagement. Consider the following:
+
+* Dynamic inclusion rules deliver recommendations by matching an attribute in a user’s profile parameter or in an mbox call.
+
+  For example, you can create a Most Popular Criteria Recommendation, and then of the set of returned recommendations, filter out any, in real-time, against an attribute passed when the user accesses a page where the recommendations are displayed.
+
+* Use static rules to limit which items are included in the recommendation (instead of collections).
+
+* You can create as many dynamic inclusion rules as necessary. The inclusion rules are joined with an AND operator. All rules must be met to include an item in a recommendation.
+
 The following options are available for dynamic filtering:
 
 #### Entity Attribute Matching
 
 Filter dynamically by comparing a pool of potential recommendations items to a specific item that the users has interacted with.
 
-For example, only recommend items that match the current item’s brand.
+For example, only recommend items that match the current item’s brand as in the following example:
+
+If the mbox on a Brand Landing Page returns `entity.brand=Nike`, then only Nike products are returned and displayed on that page. Similarly, on the Brand Landing Page for the Adidas, only Adidas products are returned. With this type of dynamic inclusion rule, the user only has to specify one recommendation rule that returns relevant brand results across all brand pages rather than specifying a collection or a static filter to match each brand name.
 
 Available operators:
 
@@ -59,31 +71,78 @@ Available operators:
 
 Filter dynamically by comparing items (entities) against a value in the user's profile.
 
-For example, only recommend items that match the visitor’s favorite brand.
+Use [!UICONTROL Profile Attribute Matching] when you want to show recommendations that match a value stored in the visitor’s profile, such as size or favorite brand. 
 
-Available operators:
+The following examples show how you can use [!UICONTROL Profile Attribute Matching]:
 
-* equals
-* does not equal
-* contains
-* does not contain
-* starts with
-* ends with
-* is greater than or equal to
-* is less than or equal to
-* is between
+* A company that sells eyeglasses stores a visitor's favorite frame color as “walnut.” For that specific visitor, recommendation are set up to return only eyeglass frames that match “walnut” in color.
+* A profile parameter can be defined for the clothing size (e.g., Small, Medium, or Large) of a visitor as they navigate your company’s web site. A recommendation can be set up to match that profile parameter and return products specific only to the user’s preferred clothing size.
+
+Let's look at an example to recommend clothes that match the clothing size set in the visitor's profile.
+
+The product page sends `entity.size` in the mbox call (red arrow in the illustration below).
+
+You can create a [profile script](/help/c-target/c-visitor-profile/profile-parameters.md) to capture the visitor's profile attributes and values from the last page that the visitor visited.
+
+For example,
+
+```
+if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'small')) { return 'small';
+}
+
+else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'medium')) { return 'medium';
+}
+
+else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'large')) { return 'large';
+}
+```
+
+The profile script captures the `entity.size` value from the mbox named `target-global-mbox` and returns it as a profile attribute named `user.size` (blue arrow in the illustration below).
+
+![size mbox call](/help/c-recommendations/c-algorithms/assets/size.png)
+
+When creating the recommendation criteria, click [!UICONTROL Add Filtering Rule], then select [!UICONTROL Profile Attribute Matching].
+
+![Profile attribute matching illustration](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
+
+If your `user.size` profile has been loaded into [!DNL Target], it displays in the drop-down for matching when you set up the rule to match the value passed in the mbox call (`size`) to the profile script name (`user.size`).
+
+You can then select "size" "equals" the value/text stored in "user.size" for your profile attribute matching.
+
+After your profile attribute rules are built, they will filter out all recommendations that have attributes that do not match the visitor's stored profile attribute.
+
+For a visual example of how profile attribute matching affects recommendations, consider a website that sells fans.
+
+When a visitor clicks various images of fans on this website, each page sets the value of the `entity.size` parameter based on whether the size of the fan in the image is small or large.
+
+Assume you created a profile script to track and count the number of times the value of `entity.size` is set to small vs. large.
+
+If the visitor then returns to the Home Page, he or she will see filtered recommendations based on whether more small fans or large fans were clicked.
+
+Recommendations based on viewing more small fans on the website:
+
+![small fans recommendations](/help/c-recommendations/c-algorithms/assets/small-fans.png)
+
+Recommendations based on viewing more large fans on the website:
+
+![large fans recommendations](/help/c-recommendations/c-algorithms/assets/large-fans.png)
 
 #### Parameter Matching
 
 Filter dynamically by comparing items (entities) against a value in the request (API or mbox).
 
-For example, only recommend content that matches the "industry" page parameter.
+For example, only recommend content that matches the "industry" page parameter or other parameters, such as device dimensions or geo-location, as in the following examples.
 
-Important: If the activity was created before October 31, 2016, its delivery will fail if it uses the "Parameter Matching" filter. To work around this problem:
+* Mbox parameters for screen width and height can be used to target mobile visitors and recommend only mobile devices and accessories.
+* Regional geo-location parameters can be used to return recommendations for tools during the winter. Snow blowers and other snow abatement tools can be recommended for visitors in areas where it snows but not recommended for visitors in areas where it does not snow.
 
-* Create a new activity and add your criteria in it.
-* Use a criteria that does not contain the "Parameter Matching" filter.
-* Remove the "Parameter Matching" filter from your criteria.
+>[!NOTE]
+>
+>If the activity was created before October 31, 2016, its delivery will fail if it uses the "Parameter Matching" filter. To work around this problem:
+>
+>* Create a new activity and add your criteria in it.
+>* Use a criteria that does not contain the "Parameter Matching" filter.
+>* Remove the "Parameter Matching" filter from your criteria.
 
 Available operators:
 
