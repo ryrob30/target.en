@@ -59,59 +59,12 @@ Filter dynamically by comparing items (entities) against a value in the user's p
 
 Use [!UICONTROL Profile Attribute Matching] when you want to show recommendations that match a value stored in the visitor’s profile, such as size or favorite brand. 
 
-The following examples show how you can use [!UICONTROL Profile Attribute Matching]:
+The following scenarios show how you can use [!UICONTROL Profile Attribute Matching]:
 
 * A company that sells eyeglasses stores a visitor's favorite frame color as “walnut.” For that specific visitor, recommendation are set up to return only eyeglass frames that match “walnut” in color.
 * A profile parameter can be defined for the clothing size (e.g., Small, Medium, or Large) of a visitor as they navigate your company’s web site. A recommendation can be set up to match that profile parameter and return products specific only to the user’s preferred clothing size.
 
-Let's look at an example to recommend clothes that match the clothing size set in the visitor's profile.
-
-The product page sends `entity.size` in the mbox call (red arrow in the illustration below).
-
-You can create a [profile script](/help/c-target/c-visitor-profile/profile-parameters.md) to capture the visitor's profile attributes and values from the last page that the visitor visited.
-
-For example,
-
-```
-if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'small')) { return 'small';
-}
-
-else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'medium')) { return 'medium';
-}
-
-else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'large')) { return 'large';
-}
-```
-
-The profile script captures the `entity.size` value from the mbox named `target-global-mbox` and returns it as a profile attribute named `user.size` (blue arrow in the illustration below).
-
-![size mbox call](/help/c-recommendations/c-algorithms/assets/size.png)
-
-When creating the recommendation criteria, click [!UICONTROL Add Filtering Rule], then select [!UICONTROL Profile Attribute Matching].
-
-![Profile attribute matching illustration](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
-
-If your `user.size` profile has been loaded into [!DNL Target], it displays in the drop-down for matching when you set up the rule to match the value passed in the mbox call (`size`) to the profile script name (`user.size`).
-
-You can then select "size" "equals" the value/text stored in "user.size" for your profile attribute matching.
-
-After your profile attribute rules are built, they will filter out all recommendations that have attributes that do not match the visitor's stored profile attribute.
-
-For a visual example of how profile attribute matching affects recommendations, consider a website that sells fans.
-
-When a visitor clicks various images of fans on this website, each page sets the value of the `entity.size` parameter based on whether the size of the fan in the image is small or large.
-
-Assume you created a profile script to track and count the number of times the value of `entity.size` is set to small vs. large.
-
-If the visitor then returns to the Home Page, he or she will see filtered recommendations based on whether more small fans or large fans were clicked.
-
-Recommendations based on viewing more small fans on the website:
-
-![small fans recommendations](/help/c-recommendations/c-algorithms/assets/small-fans.png)
-
-Recommendations based on viewing more large fans on the website:
-
-![large fans recommendations](/help/c-recommendations/c-algorithms/assets/large-fans.png)
+For more examples and instructions, see [Profile Attribute Matching Examples](#section_9873E2F22E094E479569D05AD5BB1D40) below.
 
 #### Parameter Matching
 
@@ -245,11 +198,64 @@ Profile Attribute Matching
 jobCity - equals - the value/text stored in - profile.usersCity
 ```
 
+### Example 3: Recommending clothes that match a visitor's size
+
+Let's look at an example to recommend clothes that match the clothing size set in the visitor's profile.
+
+The product page sends `entity.size` in the mbox call (red arrow in the illustration below).
+
+You can create a [profile script](/help/c-target/c-visitor-profile/profile-parameters.md) to capture the visitor's profile attributes and values from the last page that the visitor visited.
+
+For example,
+
+```
+if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'small')) { return 'small';
+}
+
+else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'medium')) { return 'medium';
+}
+
+else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'large')) { return 'large';
+}
+```
+
+The profile script captures the `entity.size` value from the mbox named `target-global-mbox` and returns it as a profile attribute named `user.size` (blue arrow in the illustration below).
+
+![size mbox call](/help/c-recommendations/c-algorithms/assets/size.png)
+
+When creating the recommendation criteria, click [!UICONTROL Add Filtering Rule], then select [!UICONTROL Profile Attribute Matching].
+
+![Profile attribute matching illustration](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
+
+If your `user.size` profile has been loaded into [!DNL Target], it displays in the drop-down for matching when you set up the rule to match the value passed in the mbox call (`size`) to the profile script name (`user.size`).
+
+You can then select "size" "equals" the value/text stored in "user.size" for your profile attribute matching.
+
+After your profile attribute rules are built, they will filter out all recommendations that have attributes that do not match the visitor's stored profile attribute.
+
+### Example 4: Recommending items based on size
+
+For a visual example of how profile attribute matching affects recommendations, consider a website that sells fans.
+
+When a visitor clicks various images of fans on this website, each page sets the value of the `entity.size` parameter based on whether the size of the fan in the image is small or large.
+
+Assume you created a profile script to track and count the number of times the value of `entity.size` is set to small vs. large.
+
+If the visitor then returns to the Home Page, he or she will see filtered recommendations based on whether more small fans or large fans were clicked.
+
+Recommendations based on viewing more small fans on the website:
+
+![small fans recommendations](/help/c-recommendations/c-algorithms/assets/small-fans.png)
+
+Recommendations based on viewing more large fans on the website:
+
+![large fans recommendations](/help/c-recommendations/c-algorithms/assets/large-fans.png)
+
 ## Entity Attribute Matching Examples 
 
 [!UICONTROL Entity Attribute Matching] allows you to recommend only the items that match an attribute from the item the user is currently viewing, the item the user most recently viewed, the item the user most recently purchased, the item the user most frequently viewed, or from an item stored in a custom attribute in the visitor's profile, as in the examples below.
 
-### Example 3: Upselling to a more expensive product
+### Example 5: Upselling to a more expensive product
 
 Suppose that you're an apparel retailer and want to encourage users to consider higher-priced and, therefore, more profitable items. You can use the "equals" and "is between" operators to promote more expensive items that are from the same category and the same brand. For example, a shoe retailer can promote more expensive running shoes in an effort to up-sell a visitor looking at running shoes.
 
@@ -264,7 +270,7 @@ Entity Attribute Matching
 value - is between - 100% and 1000% of - current item's - value
 ```
 
-### Example 4: Promoting private-label products
+### Example 6: Promoting private-label products
 
 You can mix dynamic and static filters to promote private-label products. For example, an office supply company can promote toner cartridges of the company's house brand to drive a more profitable sale for a visitor looking at toner -- and promote pens of the company's house brand to drive a more profitable sale for a visitor looking at pens.
 
