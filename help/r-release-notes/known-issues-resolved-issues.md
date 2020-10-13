@@ -20,7 +20,7 @@ The following sections list the known issues for [!DNL Target]:
 
 ### Analytics for Target (A4T) metrics for Auto-Allocate and Auto-Target activities
 
-A current known issue exists in the [!DNL Target] UI that allows users to select unsupported engagement and revenue metrics as your primary goal metric for optimization in [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities. Conversion metrics are supported; engagement and revenue metrics are *not* supported. If you select engagement or revenue goal metrics (such as orders), an optimization model will not be built (even though the [!DNL Target] UI currently allows you to select unsupported goal metrics).
+A current known issue exists in the [!DNL Target] UI that allows users to select unsupported engagement and revenue metrics as your primary goal metric for optimization in [!UICONTROL Auto-Allocate] and [!UICONTROL Auto-Target] activities. Conversion metrics are supported; engagement and revenue metrics are *not* supported. If you select engagement or revenue goal metrics, an optimization model will not be built (even though the [!DNL Target] UI currently allows you to select unsupported goal metrics).
 
 For a list of supported and unsupported goal metrics, see [Supported goal metrics](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) in *Create an activity that uses Analytics as the reporting source*. (TNT-38409)
 
