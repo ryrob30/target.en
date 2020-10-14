@@ -11,7 +11,7 @@ uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 
 This article contains prerelease information. Release dates, features, and other information are subject to change without notice. 
 
-**Last Updated: October 7, 2020**
+**Last Updated: October 14, 2020**
 
 To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages might be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
@@ -34,6 +34,18 @@ This release contains the following new features:
 |Feature|Details|
 | --- | --- |
 |On-device Decisions|On-device Decisions lets both marketers and product developers deliver experimentation and Machine Learning-driven personalization from within a user's device, across channels, at near-zero latency.<br>Speed and performance matters--in customer insights and user satisfaction. On-device Decisions lets marketers, and now product developers, test and optimize experiences right from within a users device, decreasing decision and load times to nearly zero for real-time, contextual experiences.<br>On-device Decisions allows you to compile all personalization and experimentation instructions onto "optimization artifacts," which are loaded onto customer devices. These zero-latency artifacts give marketers one-to-one personalization, behavioral retargeting, and real-time product and content recommendations, while giving developers and product owners direct code access to test user experiences and target and phase product launches, refining in real-time. And because On-device Decisions connects natively with [!DNL Adobe Experience Cloud] products, [!DNL Target] users get rapid analysis and faster experience iterations.<br>**Register now for a live webinar.** Join Adobe Target product experts as they discuss how moving critical experience optimization decisions on-device to execute locally with zero latency can open doors to exciting new use cases while improving site performance for your customers.<ul><li>November 10, 2020</li><li>10 a.m. PT / 12 p.m. CT / 1 p.m. ET</li><li>[Register Here](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)</li></ul>|
+
+This release contains the following enhancements, fixes, and changes:
+
+* Fixed an issue that prevented [!UICONTROL Average Lift Confidence Interval] and [!UICONTROL Confidence] from displaying in [!DNL Auto-Target] reporting for the [!UICONTROL Total] row. Measurements displayed correctly for all individual experiences. (TGT-37301)
+* Fixed an issue that impacted [!DNL Adobe Target Premium] users’ [!UICONTROL Auto-Target] reporting from September 15, 2:30 p.m. (PDT) to October 6, 9:25 a.m. (PDT). When viewing reports for the impacted conversion metrics (configured using either the "[!UICONTROL Viewed a page]” or “[!UICONTROL Clicked on mbox]” option), the conversions rates are incorrectly reported. There is no known delivery issue at this time. For information about how to resynchronize and correct your reporting, see [Auto-Target reporting](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) under *Resolved issues* in *Known issues and resolved issues*.
+* Added a selectable [!UICONTROL Last Updated At] column in the [!UICONTROL Catalog Search] table and a [!UICONTROL Last Updated At] filter. This enhancement saves time and effort because you don't have to open each individual item to see when it was last updated and you can filter by date the items were last updated.
+
+  ![Last Updated at column and filter illustration](/help/r-release-notes/assets/column-and-filter.png)
+
+* Improved navigation and functionality for keyboard-only users.
+* Added labels in the UI to aid users using assistive technologies.
+* Improved text and color contrast for images and text in UI.
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
 
