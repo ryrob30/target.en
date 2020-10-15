@@ -11,7 +11,7 @@ uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 
 This article contains prerelease information. Release dates, features, and other information are subject to change without notice. 
 
-**Last Updated: October 14, 2020**
+**Last Updated: October 15, 2020**
 
 To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages might be the same, depending on the timing of releases. The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
@@ -43,9 +43,10 @@ This release contains the following enhancements, fixes, and changes:
 
   ![Last Updated at column and filter illustration](/help/r-release-notes/assets/column-and-filter.png)
 
-* Improved navigation and functionality for keyboard-only users.
-* Added labels in the UI to aid users using assistive technologies.
-* Improved text and color contrast for images and text in UI.
+* Updates were made to help make the Target UI compliant with [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/) 2.0 Level A and AA Success Criteria (WCAG 2.0 AA). (TGT-34384 & TGT-24679)
+* Made Content Security Policy (CSP) improvements. (TGT-37035)
+* Introduced a way to specify the client code as a parameter for customers using CNAME. (TNT-38571)
+
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
 

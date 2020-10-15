@@ -15,6 +15,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|October 15|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Updated the prerelease notes for the Target Standard/Premium 20.10.1 release (October 27, 2020).|
 |October 14|[Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)|Added a note about traffic allocation for an Auto-Allocate activity with only two experiences.|
 |October 13|[Target announcements and events](/help/r-release-notes/target-announcements.md)|Added information about the following live webinar scheduled for November 10, 2020:<ul><li>Personalize and test at zero latency with on-device decisions from Adobe Target</li></ul>|
 ||[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about the following live webinar scheduled for November 10, 2020:<ul><li>Personalize and test at zero latency with on-device decisions from Adobe Target</li></ul>|
