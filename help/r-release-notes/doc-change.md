@@ -15,6 +15,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|October 14|[Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)|Added a note about traffic allocation for an Auto-Allocate activity with only two experiences.|
 |October 13|[Target announcements and events](/help/r-release-notes/target-announcements.md)|Added information about the following live webinar scheduled for November 10, 2020:<ul><li>Personalize and test at zero latency with on-device decisions from Adobe Target</li></ul>|
 ||[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about the following live webinar scheduled for November 10, 2020:<ul><li>Personalize and test at zero latency with on-device decisions from Adobe Target</li></ul>|
 |October 12|[Troubleshoot content delivery](/help/c-activities/c-troubleshooting-activities/content-trouble.md)|Updated [Retrieve the authorization token to use with debugging tools](/help/c-activities/c-troubleshooting-activities/content-trouble.md#section_BED130298E794D1FA229DB7C3358BA54) to indicate the permission level you must have to generate an authentication token.|
