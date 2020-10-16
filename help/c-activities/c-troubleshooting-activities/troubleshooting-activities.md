@@ -102,7 +102,7 @@ For more information about how page modifications affect Target's ability to dis
 
 ## Mbox.js is popping all subsequent code out of the head and into the body.
 
-**Validate:** View source to determine if an declarations follow the mbox.js file before the closing </body> tag.
+**Validate:** View source to determine if an declarations follow the mbox.js file before the closing `</body>` tag.
 
 **Options:**
 

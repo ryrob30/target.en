@@ -233,7 +233,7 @@ v1 version of the Offer APIs on Adobe I/O treats all offers created through Targ
 
 This issue was resolved.
 
-### at.js
+### at.js {#at-js-2}
 
 Mboxes not firing on Microsoft Explorer 11 browsers after upgrading to at.js version 1.0 due to the interaction between at.js and Visitor API 2.2.0. This issue affects at.js version 0.9.6 and later. (TNT-27600)
 
@@ -245,7 +245,7 @@ Searching for a string that contains special characters (such as a space or a co
 
 Fixed in November, 2018.
 
-### at.js
+### at.js {#at-js-3}
 
 When using at.js version 1.6.0, Analytics for Target (A4T) redirects occur, but without activity qualification.
 
@@ -287,7 +287,7 @@ When a reporting audience's name used in an Auto-Target activity is changed, fur
 
 This issue was fixed with the Target 18.5.1 (May 22, 2018) release.
 
-### at.js
+### at.js {#at-js-4}
 
 The algorithm for extracting the top-level domain that should be used when saving cookies has changed in at.js version 0.9.6. Because of this change, cookies cannot be saved to addresses that use IP. Most of the time, IP addresses are used for testing purposes, but as workarounds you can use DNS entries, adjust the hosts file on a local box, or use the targetGlobalSettings() at.js function to insert a code snippet to support IP addresses.
 
@@ -328,7 +328,7 @@ The first issue was fixed in the Target 17.3.1 release (March 2017).
 
 The second issue was fixed in the Target 17.6.1 release (June 2017).
 
-### at.js
+### at.js {#at-js-5}
 
 Since the release of Target 17.4.1 (April 27, 2017), using the Insert Image action in the Visual Experience Composer (VEC) causes the offer content to not be delivered when using the at.js library.
 
@@ -348,7 +348,7 @@ The delivery and preview was impacted for offers in A/B and XT activities having
 
 Fixed in the Target 17.4.3 hotfix.
 
-### at.js
+### at.js {#at-js-6}
 
 The following actions caused the offer to not be delivered when using the Visual Experience Composer (VEC) and at.js: Move and Rearrange.
 
@@ -372,7 +372,7 @@ For Recently Viewed criteria, entity based dynamic rules will lead to no recomme
 
 This issue was fixed after the Recommendations release (March 22, 2018). After the Recommendations release, Target skips the entity-based dynamic rules if entity.id is not passed in the mbox request.
 
-### at.js
+### at.js {#at-js-7}
 
 When users attempt to download at.js from the Implementations details page after updating at.js settings, mbox.js is downloaded instead of at.js . (TGT-23069)
 
