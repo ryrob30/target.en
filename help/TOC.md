@@ -377,7 +377,12 @@ type: Documentation
       + [Create criteria sequences](c-recommendations/c-algorithms/create-criteria-sequence.md)
       + [Base the recommendation on a recommendation key](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
       + [Upload custom criteria](c-recommendations/c-algorithms/recommendations-csv.md)
-      + [Use dynamic and static inclusion rules](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
+      + Dynamic and static inclusion rules {#dynamic-static}
+         + [Use dynamic and static inclusion rules](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
+         + [Entity Attribute Matching](/help/c-recommendations/c-algorithms/entity-attribute-matching.md)
+         + [Profile Attribute Matching](/help/c-recommendations/c-algorithms/profile-attribute-matching.md)
+         + [Parameter Matching](/help/c-recommendations/c-algorithms/parameter-matching.md)
+         + [Static Filter](/help/c-recommendations/c-algorithms/static-value.md)
       + [Use a backup recommendation](c-recommendations/c-algorithms/backup-recs.md)
       + [Work with multi-value attributes](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
       + [Use Adobe Analytics with Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
