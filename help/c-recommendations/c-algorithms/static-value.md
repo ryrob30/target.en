@@ -7,22 +7,9 @@ feature: criteria
 
 # ![PREMIUM](/help/assets/premium.png) Static Filter
 
-Manually enter one or more static values to filter using inclusion rules in Adobe Target Recommendations.
+Manually enter one or more static values to filter using inclusion rules in [!DNL Adobe Target] [!DNL Recommendations].
 
 For example, only recommend content with an MPAA rating of "G" or "PG."
-
-Available operators:
-
-* equals
-* does not equal
-* contains
-* does not contain
-* starts with
-* ends with
-* value is present
-* value is not present
-* is greater than or equal to
-* is less than or equal to
 
 >[!NOTE]
 >

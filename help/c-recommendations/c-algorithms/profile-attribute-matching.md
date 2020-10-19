@@ -9,14 +9,18 @@ feature: criteria
 
 Filter dynamically in [!DNL Adobe Target] [!DNL Recommendations] by comparing items (entities) against a value in the user's profile.
 
-Use [!UICONTROL Profile Attribute Matching] when you want to show recommendations that match a value stored in the visitor’s profile, such as size or favorite brand. 
+Use [!UICONTROL Profile Attribute Matching] when you want to show recommendations that match a value stored in the visitor’s profile, such as size or favorite brand.
+
+>[!NOTE]
+>
+>The [process for creating and using inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) for criteria and promotions is similar, as are the use cases and examples.
 
 The following scenarios show how you can use [!UICONTROL Profile Attribute Matching]:
 
 * A company that sells eyeglasses stores a visitor's favorite frame color as “walnut.” For that specific visitor, recommendation are set up to return only eyeglass frames that match “walnut” in color.
 * A profile parameter can be defined for the clothing size (e.g., Small, Medium, or Large) of a visitor as they navigate your company’s web site. A recommendation can be set up to match that profile parameter and return products specific only to the user’s preferred clothing size.
 
-## Profile Attribute Matching Examples {#section_9873E2F22E094E479569D05AD5BB1D40}
+## Profile Attribute Matching examples {#section_9873E2F22E094E479569D05AD5BB1D40}
 
 [!UICONTROL Profile Attribute Matching] allows you to recommend only the items that match an attribute from the visitor's profile, as in the examples below.
 
@@ -65,7 +69,7 @@ The profile script captures the `entity.size` value from the mbox named `target-
 
 ![size mbox call](/help/c-recommendations/c-algorithms/assets/size.png)
 
-When creating the recommendation criteria, click [!UICONTROL Add Filtering Rule], then select [!UICONTROL Profile Attribute Matching].
+When creating the recommendation criteria, click **[!UICONTROL Add Filtering Rule]**, then select **[!UICONTROL Profile Attribute Matching]**.
 
 ![Profile attribute matching illustration](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
 
@@ -73,11 +77,13 @@ If your `user.size` profile has been loaded into [!DNL Target], it displays in t
 
 You can then select "size" "equals" the value/text stored in "user.size" for your profile attribute matching.
 
+![Size example](/help/c-recommendations/c-algorithms/assets/example-size.png)
+
 After your profile attribute rules are built, they will filter out all recommendations that have attributes that do not match the visitor's stored profile attribute.
 
 ### Recommending items based on size
 
-For a visual example of how profile attribute matching affects recommendations, consider a website that sells fans.
+For a visual example of how profile attribute matching affects recommendations, consider a website that sells electric fans.
 
 When a visitor clicks various images of fans on this website, each page sets the value of the `entity.size` parameter based on whether the size of the fan in the image is small or large.
 
