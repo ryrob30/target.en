@@ -306,7 +306,7 @@ Target Standard customers can leverage 5 attributes, Target Premium customers ca
 
 ### Format
 
-A .csv file with Experience Cloud IDs (ECIDs) and attribute name/value pairs is uploaded via FTP or manually in the Experience Cloud UI.
+A .csv file with customer IDs and attribute name/value pairs is uploaded via FTP or manually in the Experience Cloud UI.
 
 ### Example Use Cases
 
